@@ -1,0 +1,5 @@
+package org.jeju.dto;
+
+public class Board {
+
+}

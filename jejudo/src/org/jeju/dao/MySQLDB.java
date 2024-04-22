@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class MySQLDB implements SqlLang {
-	final static String DRIVER = "com.mysql.jdbc.Driver";
+	final static String DRIVER = "com.mysql.cj.jdbc.Driver";
 	final static String URL = "jdbc:mysql://localhost:3306/kh";
 	final static String USERID = "root";
 	final static String USERPW = "1234";
