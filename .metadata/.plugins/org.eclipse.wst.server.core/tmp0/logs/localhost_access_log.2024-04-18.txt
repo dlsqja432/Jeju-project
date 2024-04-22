@@ -1,0 +1,14 @@
+127.0.0.1 - - [18/Apr/2024:17:06:04 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [18/Apr/2024:17:06:04 +0900] "GET /jejudo/ HTTP/1.1" 200 6095
+0:0:0:0:0:0:0:1 - - [18/Apr/2024:17:06:05 +0900] "GET /jejudo/js/jquery-3.2.1.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Apr/2024:17:06:05 +0900] "GET /jejudo/css/common.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Apr/2024:17:06:05 +0900] "GET /jejudo/css/bootstrap.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Apr/2024:17:06:05 +0900] "GET /jejudo/images/logo.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Apr/2024:17:06:05 +0900] "GET /jejudo/js/bootstrap.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Apr/2024:17:06:05 +0900] "GET /jejudo/images/vs4.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Apr/2024:17:06:05 +0900] "GET /jejudo/images/vs5.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Apr/2024:17:06:05 +0900] "GET /jejudo/images/vs6.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Apr/2024:17:06:05 +0900] "GET /jejudo/images/favicon.png HTTP/1.1" 200 680
+0:0:0:0:0:0:0:1 - - [18/Apr/2024:17:40:28 +0900] "GET /pro01/member/terms.jsp HTTP/1.1" 404 822
+0:0:0:0:0:0:0:1 - - [18/Apr/2024:17:40:28 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [18/Apr/2024:17:40:32 +0900] "GET /pro01/member/policy.jsp HTTP/1.1" 404 823

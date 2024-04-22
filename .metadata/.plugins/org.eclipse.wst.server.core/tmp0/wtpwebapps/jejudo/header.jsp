@@ -47,6 +47,7 @@
 				<a href="" class="dp1">커뮤니티</a>
 				<ul class="sub_menu">
 					<li><a href="${hpath }/NotiList.do">공지사항</a></li>
+					<li><a href="${hpath }/BoardList.do">자유게시판</a></li>
 					<li><a href="">자료실</a></li>
 					<li><a href="${hpath }/GetQnaList.do">묻고답하기</a></li>
 				</ul>

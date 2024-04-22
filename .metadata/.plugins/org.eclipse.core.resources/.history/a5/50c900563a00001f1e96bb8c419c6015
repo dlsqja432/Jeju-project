@@ -1,0 +1,13 @@
+package org.jeju.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public interface SqlLang {
+	String SELECT_ALL_MEMBER = "select * from member order by id";
+	
+	Connection connect();
+	void close(Connection con, PreparedStatement pstmt);
+	void close(Connection con, PreparedStatement pstmt, ResultSet rs);
+}
