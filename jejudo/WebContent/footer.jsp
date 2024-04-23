@@ -3,7 +3,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %> 
 <c:set var="fpath" value="<%=request.getContextPath() %>" />
-<hr>    
 <footer>
 	<div class="ft_wrap">
 		<nav id="fnb">
@@ -15,9 +14,10 @@
 		<div id="loc">
 			<select name="sel" id="sel" onchange="locate()">
 				<option value="">해당 관광서</option>
-				<option value="https://www.geumcheon.go.kr/portal/contents.do?key=651">부평동동주민센터</option>
-				<option value="https://www.smpa.go.kr/user/nd19306.do">부평파출소</option>
-				<option value="https://www.life114.co.kr/html/board/view.asp?M_SEQ=1877802#google_vignette">인천부평디지털우체국</option>
+				<option value="https://jejumaeul.or.kr/list4/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=9281354&t=board">제주도주민센터</option>
+				<option value="https://www.jjpolice.go.kr/dongbu/info/police/police8">우도파출소</option>
+				<option value="https://ijto.or.kr/korean/">제주관광공사</option>
+				<option value="https://www.airport.co.kr/jeju/index.do">제주국제공항</option>
 			</select>
 		</div>
 		<script>
@@ -30,8 +30,8 @@
 		</script>
 		<br><br>
 		<div id="copyright">
-			<p class="addr">[21354] 인천광역시 부평구 부평대로 168 (대표전화) ☎032-504-2114</p>
-			<p class="copy">COPYRIGHT(C) INCHEON BUPYEONG INTRO. ALL RIGHTS RESERVED.</p>
+			<p class="addr">(63122) 제주특별자치도 제주시 문연로 6(연동) 대표전화 : 064-120 </p>
+			<p class="copy">ⓒ 제주특별자치도. ALL RIGHTS RESERVED.</p>
 		</div>
 	</div> 
 </footer>

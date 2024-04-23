@@ -6,61 +6,44 @@
 <head>
 <style>
 a, a:visited, a:active {
-  color: inherit;
-  text-decoration: none;
- }
-#s1{
-  background: #afebff;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  align-items: center;
-   justify-content:flex-end; 
-  height: 100px;
-  -webkit-transition: opacity 350ms linear;
-  -moz-transition: opacity 350ms linear;
-  -ms-transition: opacity 350ms linear;
-  -o-transition: opacity 350ms linear;
-  transition: opacity 350ms linear;
+	color: inherit;
+	text-decoration: none;
 }
 
-section > * {
-    position: relative;
-    z-index: 2;
-}
-#s1:after{
-  content: "";
-  position: absolute;
-    display: flex;
-  bottom: 0;
-  right: 0;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-color: transparent transparent #ffff9c transparent;
-  border-width: 0 0 200px 200px;
+#s1 {
+	height: 100px;
 }
 
-.content{
-  background: transparent;
-  text-align: center;
-  padding-right: 30px;
+#s1 {
+	background: linear-gradient(140deg, #afebff 80%, #ffff9c 80%);
+	text-align: end;
+}
+
+#c1 {
+	margin-top: 10px
+}
+
+a.ex1 {
+	padding-right: 3%;
 }
 </style>
 </head>
 <header>
-	<section id="s1" style="height:50px; overflow: hidden;">
-		<div id="content">
+	<section id="s1" style="height: 50px; overflow: hidden;">
+		<div id="c1">
 			<c:if test="${not empty sid }">
-				<li><a href="${hpath }/Logout.do">로그아웃</a></li>
-				<li><a href="${hpath }/EditMember.do?id=${sid }">회원정보</a></li>
+				<a href="${hpath }/Logout.do">로그아웃</a>
+				<a href="${hpath }/EditMember.do?id=${sid }">회원정보</a>
+
 			</c:if>
 			<c:if test="${empty sid }">
 				<a href="${hpath }/member/login.jsp">로그인</a>
-				<a href="${hpath }/member/term.jsp">회원가입</a>
+				<a class="ex1" href="${hpath }/member/term.jsp">회원가입</a>
+
 			</c:if>
 		</div>
 	</section>
+	<section style="height: 3px; background: #004691;"></section>
 	<div class="logo_wrap">
 		<a href="/jejudo"><img src="${hpath }/images/logo.png"
 			alt="제주도 로고" /></a>
