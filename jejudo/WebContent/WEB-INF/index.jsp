@@ -14,7 +14,7 @@
 body, html { width:100%; overflow-x:hidden; }
 ul { list-style:none; }
 a { text-decoration: none; color:#333; }
-.page { width:1280px; height:100vh; margin:60px auto;}
+.page { width:1280px; height:100vh; margin:0 auto;}
 #page1 { background-color:#ececec }
 </style>
 </head>
