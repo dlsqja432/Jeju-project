@@ -14,8 +14,7 @@
 body, html { width:100%; overflow-x:hidden; }
 ul { list-style:none; }
 a { text-decoration: none; color:#333; }
-.container {width:100%; clear:both; text-align:center;}
-.page { width:1400px; height:100vh; }
+.page { width:1280px; height:100vh; margin:60px auto;}
 #page1 { background-color:#ececec }
 </style>
 </head>
@@ -23,7 +22,8 @@ a { text-decoration: none; color:#333; }
 <div id="header">
 	<%@ include file="/header.jsp" %>
 </div>
-<div id="contents" class="container">
+
+<div id="contents" >
 	<section class="page" id="page1">
 		<figure id="vs">
 			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
