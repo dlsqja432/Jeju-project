@@ -53,7 +53,7 @@ a { text-decoration: none; color:#333; }
 				</a>
 			</div>
 		</figure>
-		<h3 class="page_title"></h3>
+		<h3 class="page_title">a</h3>
 	</section>
 </div>
 <div id="footer">
