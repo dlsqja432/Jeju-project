@@ -16,8 +16,17 @@ ul { list-style:none; }
 a { text-decoration: none; color:#333; }
 .page { clear:both; width:1280px; min-height:100vh; margin:0 auto; margin-top:113px;}
 #page1 { background-color:#ececec; min-height:calc(100vh - 158px); }
-#recommend { width:550px; height:500px; border:2px solid #333; padding:15px; margin:20px;
-	float:left; }
+.recommend { width:540px; height:600px; 
+	padding:15px; margin:40px 50px; box-shadow:0px 0px 40px #666;
+	float:left; border-bottom-right-radius: 80px;}
+.re_wrap { width:100%; clear:both; }	
+.re_wrap:after { content:""; display: block; width:100%; clear:both; }
+.subtitle { text-align:center; z-index:3}
+.pos_box article { width:100px; height: 100px;
+        text-align: center; border-radius:50px 50px 0px 50px; position:absolute; }
+article.art1 { background-color:#ffff9c; top:20px; left:170px; z-index:2; filter:opacity(70%);} 
+article.art2 { background-color:#afebff; top:20px; right:380px; z-index:2; filter:opacity(70%);} 
+.img_item { display:block; width:400px; height:auto; margin:30px auto;}
 </style>
 </head>
 <body>
@@ -53,11 +62,28 @@ a { text-decoration: none; color:#333; }
 			    <span class="sr-only">Next</span>
 			</a>
 		</div>
-		<div id="recommend">
-			<h2><strong>추천 문화재</strong></h2>
-		</div>
-		<div id="recommend">
-			<h2><strong>Top 여행코스</strong></h2>
+		<div class="re_wrap">	
+			<div class="recommend" id="recommend1">
+				<div class="pos_box">
+	                <article class="art1"></article>
+	                <article class="art2"></article>
+	            </div>
+				<h2 class="subtitle"><strong>추천 문화재</strong></h2>
+				<img class="img_item" src="images/hanok.jpg" alt="한옥사진">
+				<div>
+					<p>제주도 한옥 생활을 체험해보세요!</p>
+				</div>
+			</div>
+			<div class="recommend" id="recommend2">
+				<h2 class="subtitle"><strong>Top 여행코스</strong></h2>
+				<img class="img_item" src="images/udo1.jpg" alt="한옥사진">
+				<div class="">
+					<p>용암지대 특유의 지형을 갖고 있는 우도를 방문해보세요!</p>
+				</div>
+			</div>
+		</div>	
+		<div>
+		
 		</div>
 	</section>
 </div>

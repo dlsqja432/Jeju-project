@@ -1,0 +1,112 @@
+제주시의 문화관광
+
+관광지
+
+메인 메뉴
+	
+	메뉴 내용 : 지역 소개		이용안내			관광정보			커뮤니티			마이페이지
+		  지역 유래		교통편 안내		관광지			공지사항			(회원가입)회원 로그인
+		  지역 역사		공공기관 안내		문화재			자료실			(회원가입)나의 정보
+		  지역 특징 및 시설안내	음식점 안내		추천 여행코스		묻고 답하기		회원 약관
+					숙박시설 안내								개인정보처리방침
+
+
+네비게이션 설계
+	메뉴 내용 : 지역 소개		이용안내			관광정보			커뮤니티			마이페이지
+		  지역 유래		교통편 안내		관광지			공지사항			(회원가입)회원 로그인
+		  (origin.jsp)		(traffic.jsp)					(noticeList.jsp)		(login.jsp)
+		  지역 역사		공공기관 안내		문화재			자료실			(회원가입)나의 정보
+		  (history.jsp)		(building.jsp)					(data.jsp)			(myPage.jsp)
+		  지역 특징 및 시설안내	음식점 안내		추천 여행코스		묻고 답하기		회원 약관
+		  (facility.jsp)		(foods.jsp)					(qnaList.jsp)		(terms.jsp)
+					숙박시설 안내								개인정보처리방침
+					(rest.jsp)									(policy.jsp)
+														회원가입
+														(join.jsp)
+
+
+
+데이터베이스 테이블
+
+-- 회원가입, 로그인
+테이블명 : member
+컬럼 
+ 	아이디 : 		id varchar(20) primary key
+	비밀번호 :	pw varchar(300)
+	이름 :		name varchar(50)
+	이메일 : 		email varchar(200)
+	전화번호 : 	tel varchar(20)
+	가입일시 :	jdate date
+
+
+-- 공지사항
+테이블명 : notice
+컬럼
+	번호 : 		no int primary key
+	제목 :		title varchar(200)
+	내용 : 		content varchar(2000)
+	작성일시 :	resdate datetime
+	조회수 : 		visited int
+
+
+-- 묻고 답하기
+테이블명 : qna
+컬럼
+	번호 : 		no int primary key
+	질문답변번호 :	plevel int not null
+	답변번호 : 	parno int
+	제목 :  		title varchar(200)
+	내용 : 		content varchar(2000)
+	작성일시 :	resdate datetime
+	조회수 : 		visited int
+	작성자 : 		aid varchar(20)	
+
+
+-- 자유게시판
+테이블명 : board
+컬럼
+	번호 : 		no int primary key
+	제목 :		title varchar(200)
+	내용 :		content varchar(2000)
+	작성일시 :	resdate datetime
+	조회수 :		visited int
+	작성자 :		aid varchar(20)
+
+테이블명 : coment
+컬럼
+	번호 : 		cno int primary key
+	게시글번호 :	no int
+	내용 :		content varchar(2000)
+	작성일시 :	resdate datetime
+	작성자 :		aid varchar(20)
+
+
+
+하늘색 : #afebff
+노란색 : #ffff9c
+
+style guide 
+네이버 코딩 컨벤션 참고
+
+
+
+
+
+<button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+			 	</button>
+				 <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+			 	</button>
+
+
+
+
+
+
+
+
+
+
