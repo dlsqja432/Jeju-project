@@ -21,7 +21,7 @@ background-color:#659ffc; }
 #gnb .item .sub_menu li a { color:#fff; }
 #contents { clear:both; }
 
-#vs { clear:both; width:100%; height:800px; overflow:hidden; }
+#vs { clear:both; width:100%; height:610px; overflow:hidden; }
 #vs img { display:block; width:100%; height:auto; margin-top:-250px;}
 
 .ft_wrap { width:1400px; margin:0 auto; }

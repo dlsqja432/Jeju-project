@@ -14,7 +14,7 @@
 body, html { width:100%; overflow-x:hidden; }
 ul { list-style:none; }
 a { text-decoration: none; color:#333; }
-.page { width:1280px; height:100vh; margin:0 auto;}
+.page { width:1280px; height:100vh; margin:0 auto; margin-top:113px;}
 #page1 { background-color:#ececec }
 </style>
 </head>
@@ -34,7 +34,7 @@ a { text-decoration: none; color:#333; }
 				 </ol>
 			 	<div class="carousel-inner">
 				    <div class="carousel-item active">
-				      	<img src="${path0 }/images/vs4.jpg" class="d-block w-100" alt="First slide">
+				      	<img src="${path0 }/images/vs4.jpg" class="d-block w-100" alt="First slide" >
 				    </div>
 				    <div class="carousel-item">
 				      	<img src="${path0 }/images/vs5.jpg" class="d-block w-100" alt="Second slide">
@@ -53,7 +53,6 @@ a { text-decoration: none; color:#333; }
 				</a>
 			</div>
 		</figure>
-		<h3 class="page_title">a</h3>
 	</section>
 </div>
 <div id="footer">
