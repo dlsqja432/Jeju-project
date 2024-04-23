@@ -1,5 +1,0 @@
-package org.jeju.dao;
-
-public interface SqlLang {
-
-}
