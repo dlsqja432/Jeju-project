@@ -19,3 +19,15 @@
 <meta property="og:image" content="${ipath }/images/site.png" />
 <meta property="og:url" content="http://localhost:8091" />
 <link rel="stylesheet" href="${ipath }/css/common.css" />
+<style>
+#footer {
+	position: relative;
+	padding: 5px 0;
+	background: linear-gradient(110deg, #afebff 79.5% , #ffff9c  60%);
+	border-top: 3px solid #004691;
+	color: #000000;
+}
+
+#fnb ul li a { color:#000; }
+
+</style>	
