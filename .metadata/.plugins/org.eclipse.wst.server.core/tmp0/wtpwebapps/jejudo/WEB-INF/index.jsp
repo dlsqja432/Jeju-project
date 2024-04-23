@@ -10,42 +10,47 @@
 <title>${title }</title>
 <%@ include file="/head.jsp" %>
 <style>
-.container {width:1400px; }
-.page { clear:both; height:100vh; }
-.page_title { font-size:36px; padding-top:2em; text-align:center; }
+* { margin: 0; padding: 0; }
+body, html { width:100%; overflow-x:hidden; }
+ul { list-style:none; }
+a { text-decoration: none; color:#333; }
+.container {width:100%; clear:both; text-align:center;}
+.page { width:1400px; height:100vh; }
 #page1 { background-color:#ececec }
-#page2 { background-color:#fbffc4 }
-#page3 { background-color:#f9d6ff }
-#page4 { background-color:#d6f5ff }
 </style>
 </head>
 <body>
 <div id="header">
 	<%@ include file="/header.jsp" %>
 </div>
-<div id="contents">
+<div id="contents" class="container">
 	<section class="page" id="page1">
 		<figure id="vs">
 			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-			  <div class="carousel-inner">
-			    <div class="carousel-item active">
-			      <img src="${path0 }/images/vs4.jpg" class="d-block w-100" alt="...">
-			    </div>
-			    <div class="carousel-item">
-			      <img src="${path0 }/images/vs5.jpg" class="d-block w-100" alt="...">
-			    </div>
-			    <div class="carousel-item">
-			      <img src="${path0 }/images/vs6.jpg" class="d-block w-100" alt="...">
-			    </div>
-			  </div>
-			 <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
-			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Previous</span>
-			  </button>
-			  <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
-			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Next</span>
-			  </button>
+				<ol class="carousel-indicators">
+    				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				 </ol>
+			 	<div class="carousel-inner">
+				    <div class="carousel-item active">
+				      	<img src="${path0 }/images/vs4.jpg" class="d-block w-100" alt="First slide">
+				    </div>
+				    <div class="carousel-item">
+				      	<img src="${path0 }/images/vs5.jpg" class="d-block w-100" alt="Second slide">
+				    </div>
+				    <div class="carousel-item">
+				      	<img src="${path0 }/images/vs6.jpg" class="d-block w-100" alt="Third slide">
+				 	</div>
+			 	</div>
+			 	<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				</a>
 			</div>
 		</figure>
 		<h3 class="page_title"></h3>

@@ -31,6 +31,20 @@ public interface SqlLang {
 	String DELETE_COMENT_CNO = "delete from coment where cno=?";
 	String DELETE_COMENT_NO = "delete from coment where no=?";
 	
+	String LATEST_QNA = "select * from qna order by parno desc, plevel asc limit 5";
+	String SELECT_ALL_QNA = "select * from qna order by parno desc, plevel asc";
+	String VISITED_UPDATE_QNA = "update qna set visited=visited+1 where no=?";
+	String SELECT_QNA_BYNO = "select * from qna where no=?";
+	String INSERT_QUESTION = "insert into qna(plevel, parno, title, content, resdate, visited, aid) values(1,null,?,?,default,0,?)";
+	String UPDATE_PARNO_QUESTION = "UPDATE qna JOIN (SELECT no FROM qna ORDER BY no DESC LIMIT 1) AS sub SET qna.parno = sub.no WHERE qna.no = sub.no";
+	String INSERT_ANSWER = "insert into qna(plevel, parno, title, content, resdate, visited, aid) values(2,?,?,?,default,0,?)";
+	String UPDATE_QNA = "update qna set title=?, content=? where no=?";
+	String DELETE_QUESTION = "delete from qna where parno=?";
+	String DELETE_ANSWER = "delete from qna where no=?";
+	
+	
+	
+	
 	Connection connect();
 	void close(Connection con, PreparedStatement pstmt);
 	void close(Connection con, PreparedStatement pstmt, ResultSet rs);
