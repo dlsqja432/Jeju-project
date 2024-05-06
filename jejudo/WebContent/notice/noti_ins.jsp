@@ -66,7 +66,7 @@
                 <ol class="breadcrumb">
                     <li><a href="/jejudo">Home</a></li>
                     <li><a href="#">공지사항</a></li>
-                    <li>공지사항 상세보기</li>
+                    <li>공지사항 글 등록</li>
                 </ol>
                 
 				<div class="page_wrap">
