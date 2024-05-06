@@ -46,8 +46,8 @@
 				</table>
 				<hr>
 				<div class="btn-group">
- 					<button type="submit" class="btn btn-secondary">로그인</button>
- 					<button type="reset" class="btn btn-secondary">취소</button>
+ 					<button type="submit" class="btn">로그인</button>
+ 					<button type="reset" class="btn_red">취소</button>
 				</div>
 			</form>
 		</div>

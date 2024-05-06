@@ -11,6 +11,7 @@ import javax.servlet.http.HttpSession;
 
 import org.jeju.dao.MemberDAO;
 import org.jeju.dto.Member;
+import org.jeju.util.AES256;
 
 @WebServlet("/EditMemberPro.do")
 public class EditMemberProCtrl extends HttpServlet {
@@ -30,8 +31,16 @@ public class EditMemberProCtrl extends HttpServlet {
 		HttpSession session = request.getSession();
 		session.setAttribute("sname", request.getParameter("name"));
 		
+		String pw = request.getParameter("pw");
+		String key = "%02x";
+		try {
+			pw = AES256.encryptAES256(pw, key);
+		} catch (Exception e) {
+			e.printStackTrace();
+		} 
+		
 		Member mem = new Member(request.getParameter("id"),
-				request.getParameter("pw"),
+				pw,
 				request.getParameter("name"),
 				request.getParameter("email"),
 				request.getParameter("tel"),

@@ -42,6 +42,14 @@ public interface SqlLang {
 	String DELETE_QUESTION = "delete from qna where parno=?";
 	String DELETE_ANSWER = "delete from qna where no=?";
 	
+	String SELECT_ALL_DATA = "select * from data order by resdate desc";
+	String LATEST_DATA = "select * from data order by resdate desc limit 5";
+	String VISITED_UPDATE_DATA = "update data set visited=visited+1 where no=?";
+	String SELECT_DATA_BYNO = "select * from data where no=?";
+	String INSERT_DATA = "insert into data(title,content,datafile,resdate,visited) values(?,?,?,default,0)";
+	String UPDATE_DATA = "update data set title=?, content=?, datafile=? where no=?";
+	String DELETE_DATA = "delete from data where no=?";
+	
 	
 	
 	

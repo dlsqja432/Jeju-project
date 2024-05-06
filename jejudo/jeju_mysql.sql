@@ -59,3 +59,10 @@ insert into board(title, content, resdate, visited, aid) values('더미제목1',
 create table coment(cno int auto_increment primary key, no int, content varchar(2000), resdate datetime default current_timestamp, aid varchar(20));
 select * from coment;
 insert into coment(no,content,resdate,aid) values(1,'더미댓글1', default, 'user1');
+
+-- data 테이블 생성
+create table data(no int auto_increment primary key, title varchar(200), content varchar(2000), datafile varchar(300), 
+resdate datetime default current_timestamp, visited int);
+select * from data;
+insert into data(title,content,datafile,resdate,visited) values('더미제목1', '더미내용1','testfile1.png',default,0);
+insert into data(title,content,datafile,resdate,visited) values('더미제목2', '더미내용2','testfile2.png',default,0);
