@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 public interface SqlLang {
 	String SELECT_ALL_MEMBER = "select * from member order by id";
 	String SELECT_ONE_MEMBER = "select * from member where id=?";
-	String INSERT_MEMBER = "insert into member values(?,?,?,?,?,default)";
+	String INSERT_MEMBER = "insert into member values(?,?,?,?,?,default,?,?)";
 	String UPDATE_MEMBER = "update member set pw=?,name=?,email=?,tel=? where id=?";
 	String DELETE_MEMBER = "delete from member where id=?";
 	

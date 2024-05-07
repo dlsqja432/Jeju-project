@@ -75,7 +75,7 @@
 						<li><a href="${hpath }/AdminMain.do">관리자</a></li>
 					</c:if>
 	                <li><a href="${hpath }/member/terms.jsp">회원약관</a></li>
-	                <li><a href="${hpath }/member/policy.jsp">마이페이지</a></li>
+	                <li><a href="${hpath }/member/policy.jsp">개인정보처리 방침</a></li>
 	            </ul>
 	        </li>
 	    </ul>

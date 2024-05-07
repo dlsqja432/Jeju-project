@@ -16,7 +16,7 @@ import org.jeju.util.AES256;
 public class Aes256Test {
 
 	public static void main(String[] args) throws InvalidKeyException, NoSuchAlgorithmException, InvalidKeySpecException, NoSuchPaddingException, InvalidParameterSpecException, UnsupportedEncodingException, BadPaddingException, IllegalBlockSizeException, InvalidAlgorithmParameterException {
-		String pw = "5678";
+		String pw = "4321";
 		String key = "%02x";
 		String en_res = AES256.encryptAES256(pw, key);
 		System.out.println(en_res);
