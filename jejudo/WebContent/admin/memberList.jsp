@@ -9,75 +9,119 @@
 <meta charset="UTF-8">
 <title>${title }</title>
 <%@ include file="/head.jsp" %>
+<script src="${path0 }/js/jquery.dataTables.js"></script>
+<link rel="stylesheet" href="${path0 }/css/jquery.dataTables.css">
+<link rel="stylesheet" href="${path0 }/css/normalize2.css">
+<link rel="stylesheet" href="${path0 }/css/common.css">
 <style>
-.container {width:1400px; }
-.page { clear:both; height:100vh; }
-.page_title { font-size:36px; padding-top:2em; text-align:center; }
-#page1 { background-color:#ececec }
-th.item1 { width:5% }
-th.item2 { width:15% }
-th.item3 { width:15% }
-th.item4 { width:20% }
-th.item5 { width:20% }
+#search { width: 950px; height: 100px; text-align: center;
+    line-height: 100px; background-color: #ccc; margin-bottom:20px; }
+#search #inp1 { width: 100px; height: 40px; padding-left: 10px; font-size: 16px;
+    border-radius: 8px; border-style: none; } 
+#search #inp2 { width: 500px; height: 40px; padding-left: 10px; font-size: 16px;
+    border-radius: 8px; border-style: none; } 
+
+.page { clear:both; width:1200px; min-height:100vh; margin:0 auto; margin-top:20px;}
+.page::after { content: ""; display: block; width: 100%; clear: both; }
+.page_title { text-align: center; padding-top: 2em; padding-bottom: 0.5em; }
+#page1, #page2 { min-height:calc(100vh - 100px); }
+#page2 { margin-bottom: 10px; }
+#page_title1 { text-align: center; font-size: 32px; font-weight: bold;
+    padding-top: 2rem; padding-bottom: 2rem; }
+
+.tb_wrap { width: 948px; margin: 10px auto; padding-bottom: 20px; 
+    margin-bottom: 20px; float: left; }
+.tb_wrap:after { content:""; display:block; width: 100%; clear:both; }
+.table { display:table; border-collapse: collapse; width:900px; 
+    margin:10px auto; }
+.table tr { display:table-row; height: 50px; }
+.table td, .table th { display:table-cell; font-size:16px; }
+.table td { line-height: 32px; }
+.table td:first-child{ padding-left:20px; width:40px; }
+.table td:nth-child(2){ width:235px; }
+.table td:nth-child(4){ width:160px; }
+.table td:last-child { padding-left:36px; border-right: 1px solid #ececec; width:80px; }
+.table th { line-height: 36px; background-color:#ececec; color:#e33; text-align:right; }
+.table a.n_tit { display:block; width: 610px; white-space:nowrap; 
+	text-overflow: ellipsis; overflow:hidden; font-weight: bold; }
+.table a.n_tit:hover { text-decoration: underline; color:deepskyblue; }
+.table strong.n_tit { display:block; width: 610px; white-space:nowrap; 
+	text-overflow: ellipsis; overflow:hidden; font-weight: bold; }
+.btn-group { margin-left:40px; width:450px; }
 </style>
 </head>
 <body>
-<div id="header">
-	<%@ include file="/header.jsp" %>
-</div>
-<div id="contents">
-	<div class="row">
-		<aside id="lnb" class="col-3">
-			<nav>
-				<ul>
-					<li><a href="${path0 }/MemberList.do">회원목록</a></li>
-					<li><a href="${path0 }/NotiList.do">게시판 관리</a></li>
-				</ul>
-			</nav>
-		</aside>
-		<section class="page col-9" id="page1">
-			<div style="width:100%; margin:0 auto;">
-				<h3 class="page_title">회원 목록</h3>
-				<div>
-					<table class="table table-dark">
-						<thead>
-							<tr>
-								<th class="item1">번호</th>
-								<th class="item2">아이디</th>
-								<th class="item3">비밀번호</th>
-								<th class="item4">이름</th>
-								<th class="item5">이메일</th>
-								<th class="item6">전화번호</th>
-							</tr>
-						</thead>
-						<tbody>
-							<c:if test="${not empty memList }">
-								<c:forEach var="dto" items="${memList }" varStatus="status">
-								<tr>
-									<td>${status.count }</td>
-									<td>${dto.id }</td>
-									<td>${dto.pw }</td>
-									<td>${dto.name }</td>
-									<td>${dto.email }</td>
-									<td>${dto.tel }</td>
-								</tr>
-								</c:forEach>
-							</c:if>
-							<c:if test="${empty memList }">
-								<tr>
-									<td colspan="6"><strong>회원이 존재하지 않습니다.</strong></td>
-								</tr>
-							</c:if>
-						</tbody>
-					</table>
-					<hr>
-				</div>
-			</div>
-		</section>
-	</div>		
-</div>
-<div id="footer">
-	<%@ include file="/footer.jsp" %>
-</div>
+<%@ include file="/header.jsp" %>
+<main id="contents" class="clr-fix">
+        <section class="page" id="page2">
+            <nav id="side_bar">
+                <ul>
+                    <h3 id="side_bar_title">관리자</h3>
+                    <li><a href="${hpath }/MemberList.do">회원 관리</a></li>
+                    <li><a href="${hpath }/NotiList.do">공지사항 관리</a></li>
+                    <li><a href="${hpath }/BoardList.do">자유게시판 관리</a></li>
+                </ul>
+            </nav>
+            <div class="tb_wrap">
+            	<form id="checkboxForm" action="${path0 }/DelMember2.do" method ="post">
+                <h2 class="page_title" id="page_title1">회원 관리</h2>
+                <table class="table" id="tb1">
+                    <thead>
+                        <tr>
+                            <th>번호</th>
+                            <th>아이디</th>
+                            <th>비밀번호</th>
+                            <th>생성일자</th>
+                            <th>계정삭제</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    	<c:if test="${not empty memList }">
+                    		<c:forEach var="dto" items="${memList }" varStatus="status">
+		                        <tr>
+		                        	<td>${status.count }</td>
+		                            <td>${dto.id }</td>
+		                            <td>${dto.pw }</td>
+		                            <td>
+			                            <fmt:parseDate value="${dto.jdate }" var="res" pattern="yyyy-MM-dd HH:mm:ss" />
+								 		<fmt:formatDate value="${res }" var="resdate" pattern="yyyy년 MM월 dd일" />
+								 		${resdate }
+		                            </td>
+		                            <td>
+		                            	<input type="checkbox" name="ck" value="${dto.id }">
+		                            	<div id="result"></div>
+		                            </td>
+		                        </tr>
+                        	</c:forEach>
+                        </c:if>
+                    </tbody>
+                </table>
+                <script>
+                $(document).ready(function(){
+					$("#tb1").DataTable({
+						order:[[0,"desc"]]
+					});
+				});
+                </script>
+                <hr>
+				<c:if test="${sid.equals('admin') }">
+					<div class="btn-group">
+	 					<button type="button" class="btns_red" id="submitButton" value="Submit">계정 삭제</button>
+					</div>
+				</c:if>
+				</form>
+				<div id="result"></div>
+				<script>
+				$("input[name='ck']").each(function(){
+				    if( $(this).is(":checked") == true ){
+				      var checkVal = $(this).val();
+				      console.log(checkVal);
+				    }
+				});
+				</script>
+            </div>
+        </section>
+    </main>
+<%@ include file="/footer.jsp" %>
 </body>
 </html>

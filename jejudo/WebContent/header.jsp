@@ -46,7 +46,7 @@
 	        <li class="item">
 	            <a href="" class="dp1">관광정보</a>
 	            <ul class="sub_menu">
-	                <li><a href="">관광지</a></li>
+	                <li><a href="${hpath }/tour/tour.jsp">관광지</a></li>
 	                <li><a href="">문화재</a></li>
 	                <li><a href="">추천 여행코스</a></li>
 	            </ul>
