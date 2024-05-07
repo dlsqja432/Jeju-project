@@ -56,9 +56,14 @@ ul { list-style-type: none; }
 .btns { width: 120px; height: 40px; text-align: center; margin: 10px; border-radius: 10px; 
     background-color: #f0d264; border-style: hidden; cursor: pointer; font-size: 16px;
     font-weight: bold; box-shadow:0px 4px 0px #D1B757; color:white; line-height:40px; }
+.btns_blue { width: 120px; height: 40px; text-align: center; margin: 10px; border-radius: 10px; 
+    background-color: #7fb1bf; border-style: hidden; cursor: pointer; font-size: 16px;
+    font-weight: bold; box-shadow:0px 4px #74a3b0; color:white; line-height:40px; }
 .btns_red { width: 120px; height: 40px; text-align: center; margin: 10px; border-radius: 10px; 
     background-color: #fa5a5a; border-style: hidden; cursor: pointer; font-size: 16px;
     font-weight: bold; box-shadow:0px 4px 0px #E04342; color:white; line-height:40px; }
+.btns_blue:hover { box-shadow: 0 0 #74a3b0; background-color: #709CA8; text-decoration:none;
+	color:white; }
 .btns:hover { box-shadow: 0 0 #ff4c4b; background-color: #D6BB59; text-decoration:none;
 	 color:white;}
 .btns_red:hover { box-shadow: 0 0 #ff4c4b; background-color: #990000; text-decoration:none;

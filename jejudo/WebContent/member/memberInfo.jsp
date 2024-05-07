@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <c:set var="path0" value="<%=request.getContextPath() %>" />
 <!DOCTYPE html>
 <html>
@@ -10,10 +11,10 @@
 <title>${title }</title>
 <%@ include file="/head.jsp" %>
 <style>
-.container {width:1400px; }
+.container {width:1200px; }
 .page { clear:both; height:100vh; }
-.page_title { font-size:36px; padding-top:2em; text-align:center; }
-#page1 { background-color:#ececec }
+.page_title { font-size:36px; padding-top:1.5em; text-align:center; }
+.table th { width:200px; }
 </style>
 </head>
 <body>
@@ -22,11 +23,8 @@
 </div>
 <div id="contents">
 	<section class="page" id="page1">
-		<c:if test="${not empty msg }">
-		<div style="width:1400px; margin:0 auto; color:red; padding-top:32px; text-align:center">${msg }</div>
-		</c:if>
-		<div style="width:1400px; margin:0 auto">
-			<h3 class="page_title"><i class="fas fa-user-plus fa_fw"></i> 회원 가입</h3>
+		<div style="width:1200px; margin:0 auto">
+			<h3 class="page_title"><i class="fas fa-user-edit"></i> 회원 정보</h3>
 			<form action="${path0 }/EditMemberPro.do" method="post" onsubmit="return editCheck(this)">
 				<table class="table">
 					 <tbody>
@@ -68,6 +66,15 @@
 					 		</td>
 					 	</tr>
 					 	<tr>
+					 		<th><label for="post_btn">주소</label></th>
+					 		<td>
+					 			<c:set var="address" value="${fn:split(mem.addr, ' $ ')}"/>
+					 			<input type="text" name="address1" id="address1" class="form-control" value="${address[0] }" readonly required><br>
+					 			<input type="text" name="address2" id="address2" class="form-control" value="${address[1] }" readonly required><br>
+					 			<input type="text" name="postcode" id="postcode" class="form-control" value="${mem.postcode }" style="width:160px" readonly required>
+					 		</td>
+					 	</tr>
+					 	<tr>
 					 		<th><label for="tel">가입일시</label></th>
 					 		<td>
 					 			<input type="text" name="jdate" id="jdate" value="${mem.jdate }" class="form-control" required readonly>
@@ -77,9 +84,8 @@
 				</table>
 				<hr>
 				<div class="btn-group">
- 					<button type="submit" class="btn btn-secondary">회원정보수정</button>
- 					<a href="${path0 }/DelMember.do?id=${sid }" class="btn btn-secondary">회원탈퇴</a>
- 					<button type="reset" class="btn btn-secondary">취소</button>
+ 					<button type="submit" class="btns">회원정보수정</button>
+ 					<a href="${path0 }/DelMember.do?id=${sid }" class="btns_red">회원탈퇴</a>
 				</div>
 			</form>
 			<script>

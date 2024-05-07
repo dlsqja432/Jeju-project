@@ -46,7 +46,9 @@ public class JoinProCtrl extends HttpServlet {
 				request.getParameter("name"),
 				request.getParameter("email"),
 				request.getParameter("tel"),
-				null);
+				request.getParameter("jdate"),
+				request.getParameter("address1") + " $ " + request.getParameter("address2"),
+				request.getParameter("postcode"));
 		
 		MemberDAO dao = new MemberDAO();
 		int cnt = dao.join(member);
