@@ -106,18 +106,34 @@
                 <hr>
 				<c:if test="${sid.equals('admin') }">
 					<div class="btn-group">
-	 					<button type="button" class="btns_red" id="submitButton" value="Submit">계정 삭제</button>
+	 					<button type="button" onclick="handleCheckboxValues()" class="btns_red" id="submitButton">계정 삭제</button>
 					</div>
 				</c:if>
 				</form>
-				<div id="result"></div>
 				<script>
-				$("input[name='ck']").each(function(){
-				    if( $(this).is(":checked") == true ){
-				      var checkVal = $(this).val();
-				      console.log(checkVal);
-				    }
-				});
+				function handleCheckboxValues() {
+				 	var checkedValues = [];
+
+		            // 체크된 체크박스의 값을 수집
+		            var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+		            checkboxes.forEach(function(checkbox) {
+		                checkedValues.push(checkbox.value);
+		            });
+		            
+		         	// AJAX를 사용하여 서버로 데이터 전송
+		            var xhr = new XMLHttpRequest();
+		            xhr.open("POST", "${path0 }/DelMember2.do", true);
+		            xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+		            xhr.onreadystatechange = function() {
+		                if (xhr.readyState == 4 && xhr.status == 200) {
+		                    console.log("Response from server: " + xhr.responseText);
+		                }
+		            };
+		            xhr.send(JSON.stringify(checkedValues));
+		            setTimeout(function() {
+		                location.reload();
+		            }, 300);
+				}
 				</script>
             </div>
         </section>
