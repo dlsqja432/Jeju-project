@@ -111,6 +111,8 @@ textarea { font-size:16px;  border-radius:6px; border-style: none; outline: none
 						<div class="btn-group">
 							<c:if test="${sid.equals(board.aid) }">
 			 					<a href="${path0 }/EditBoard.do?no=${board.no }" class="btns">글 수정</a>
+			 				</c:if>
+			 				<c:if test="${sid.equals(board.aid) || sid.equals('admin') }">
 			 					<a href="${path0 }/DelBoard.do?no=${board.no }" class="btns_red">글 삭제</a>
 			 				</c:if>
 			 				<a href="${path0 }/BoardList.do" class="btns">글 목록</a>
