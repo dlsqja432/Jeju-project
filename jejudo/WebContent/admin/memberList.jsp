@@ -132,7 +132,7 @@
 		            xhr.send(JSON.stringify(checkedValues));
 		            setTimeout(function() {
 		                location.reload();
-		            }, 300);
+		            }, 100);
 				}
 				</script>
             </div>
