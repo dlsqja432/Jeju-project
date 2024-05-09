@@ -28,9 +28,9 @@
 	        <li class="item">
 	            <a href="" class="dp1">제주 소개</a>
 	            <ul class="sub_menu">
-	                <li><a href="${hpath }/intro/origin.jsp">지명유래</a></li>
-	                <li><a href="${hpath }/intro/facility.jsp">지역 특징 및 시설안내</a></li>
-	                <li><a href="${hpath }/intro/history.jsp">연혁</a></li>
+	                <li><a href="${hpath }/intro/origin.jsp">제주 역사</a></li>
+	                <li><a href="${hpath }/intro/facility.jsp">제주 상징</a></li>
+	                <li><a href="${hpath }/intro/history.jsp">제주 연혁</a></li>
 	                <li><a href="${hpath }/intro/map.jsp">오시는 길</a></li>
 	            </ul>
 	        </li>

@@ -13,6 +13,32 @@ public class NoticeDAO {
 	PreparedStatement pstmt = null;
 	ResultSet rs = null;
 
+	public List<Notice> getLastNoticeList() {
+		List<Notice> notiList = new ArrayList<>();
+		
+		MySQLDB mysql = new MySQLDB();
+		try {
+			con = mysql.connect();
+			pstmt = con.prepareStatement(SqlLang.LATEST_NOTICE);
+			rs = pstmt.executeQuery();
+			
+			while(rs.next()) {
+				Notice noti = new Notice(rs.getInt("no"),
+						rs.getString("title"),
+						rs.getString("content"),
+						rs.getString("resdate"),
+						rs.getInt("visited"));
+				notiList.add(noti);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			mysql.close(con, pstmt, rs);
+		}
+		
+		return notiList;
+	}
+	
 	public List<Notice> getNoticeList() {
 		List<Notice> notiList = new ArrayList<>();
 		

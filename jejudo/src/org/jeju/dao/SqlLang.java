@@ -11,6 +11,7 @@ public interface SqlLang {
 	String UPDATE_MEMBER = "update member set pw=?,name=?,email=?,tel=? where id=?";
 	String DELETE_MEMBER = "delete from member where id=?";
 	
+	String LATEST_NOTICE = "select * from notice order by no desc limit 5";
 	String SELECT_ALL_NOTICE = "select * from notice order by no desc";
 	String VISITED_UPDATE_NOTICE = "update notice set visited=visited+1 where no=?";
 	String SELECT_NOTICE_BYNO = "select * from notice where no=?";
