@@ -368,11 +368,11 @@ button:hover::before {
 
 
 			<div class="tb_wrap">
-				<h2 class="page_title" id="page_title1">관광지</h2>
+				<h2 class="page_title" id="page_title1">문화재</h2>
 				<ol class="breadcrumb">
 					<li><a href="main.html">Home</a></li>
-					<li><a href="#">Tour</a></li>
-					<li>관광지</li>
+					<li><a href="#">artifact</a></li>
+					<li>문화재</li>
 				</ol>
 				<div id="search">
 					<input type="text" id="inp1" value="제목" readonly> <input
@@ -382,54 +382,52 @@ button:hover::before {
 				<table class="table">
 					<tbody>
 						<tr>
-							<th><img src="${ipath}/images/tour/teddy_250.png" alt=""></th>
+							<th><img src="${ipath}/images/artifact/rock_250.jpg" alt=""></th>
 							<td>
 								<p>
-									<strong>장소명</strong> : 테디베어 뮤지엄<br> <strong>주소</strong> :
-									제주특별자치도 서귀포시 색달동 2889번지 중문관광단지 입구<br> <strong>영업
-										시간</strong> : 오전 09:00 ~ 오후 6:00 (입장마감 17:30)<br> <strong>입장
-										요금</strong> : 성인 12000, 청소년 11000 어린이 10000<br> <strong>홈페이지</strong>
-									: <a href="#">오구당당.com</a><br> <strong>전화번호</strong> :
-									064-738-7600
+									<strong>명칭</strong> : 돌하르방<br>
+
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal1">더보기</button> <!-- The Modal -->
 								<pattern id="myModal1" class="modal"> <!-- Modal content -->
 								<pattern class="modal-content"> <pattern
 									class="modal-header">
-								<h2>테디베어 뮤지엄</h2>
+								<h2>돌하르방</h2>
 								<span class="close">×</span> </pattern> <pattern class="modal-body">
-								<p>설명: 국내 최초 오리지널 테디베어뮤지엄</p>
-								<p>주소: 제주특별자치도 서귀포시 색달동 2889번지 중문관광단지 입구</p>
-								<iframe
-									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6673.084972114919!2d126.40746986503214!3d33.2522874655999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350c5ac728409539%3A0x323101daba026ecb!2sTeddy%20Bear%20Museum!5e0!3m2!1sen!2skr!4v1714973704782!5m2!1sen!2skr"
-									width="600" height="450" style="border: 0;" allowfullscreen=""
-									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+								<p>설명: 돌하르방은 제주도에서 마을 입구에 세워 수호신 구실을 하는 장승이다. 돌하르방이란
+									‘돌할아버지’라는 제주도 방언이다. 돌하르방은 머리에 둥근 감투가 씌워졌고, 눈이 부리부리하게 큰 편이며, 입은
+									다물었다. 한쪽 어깨를 치켜올렸고, 두 손은 배 부분에 위아래로 가지런히 모아 붙였다. 돌하르방은 본래
+									제주현·정의현·대정현에 세워져 성문 앞에 서서 경계 표지 및 금지의 표식 구실을 하였다. 또한 성문의 수호신으로서
+									성안의 안전을 지키는 종교적 기능도 담당하였다. 1971년 제주도 민속자료로 지정하였다.</p>
+								<p>돌하르방 석상은 현재 제주시내에 21기, 서귀포시 표선면 성읍리에 12기, 서귀포시 대정읍
+									인성·안성·보성리에 12기가 있고, 서울의 국립민속박물관에 2기가 있는데, 이것은 제주시의 것을 옮겨놓은 것이다.
+								</p>
+
 								</pattern> <pattern class="modal-footer">
 								<h4>찾아오시는 길:</h4>
 								</pattern> </pattern> </pattern>
 							</td>
 						</tr>
 						<tr>
-							<th><img src="${ipath}/images/tour/dragonrock_250.png"
+							<th><img src="${ipath}/images/artifact/hamel_250.jpg"
 								alt=""></th>
 							<td>
 								<p>
-									<strong>장소명</strong> : 용두암<br> <strong>주소</strong> :
-									제주특별자치도 제주시 용두암길 15<br> <strong>영업 시간</strong> : 오전 07:30
-									~ 오후 8:00<br> <strong>입장 요금</strong> : 무료 <br> <strong>홈페이지</strong>
-									: <a href="#">오구당당.com</a><br> <strong>전화번호</strong> :
-									064-728-3917
+									<strong>명칭</strong> : 하멜 표류기<br>
+
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal2">더보기</button> <!-- The Modal -->
 								<pattern id="myModal2" class="modal"> <!-- Modal content -->
 								<pattern class="modal-content"> <pattern
 									class="modal-header">
-								<h2>용두암</h2>
+								<h2>하멜 표류기</h2>
 								<span class="close">×</span> </pattern> <pattern class="modal-body">
-								<p>설명: 용이 포요하며 바다에서 솟구쳐 오르는 형상을 따 용두암이라 이름 지어졌다. 전설에 의하면 인근
-									계곡 용연에서 살던 용이 승천하려다가 돌로 굳어졌다고 한다. 겉으로 드러난 부분의 높이가 10m, 바다 속에 잠긴
-									몸의 길이가 30m 쯤 된다고 하니, 괴암을 응시하고 있자면, 정말로 용이 꿈틀거리는 것 같은 상상을 할 법도
-									하다.</p>
+								<p>조선 중기 제주도에 표착한 헨드릭 하멜과 네덜란드인들의 억류 생활을 기록한 책.</p>
+								<p>하멜 일행이 제주도에 표착하여 관원에게 체포된 경위와 조선 여기저기에 끌려다니면서 겪은 일을 적고
+									있다. 또한 조선의 풍속 및 지리, 풍토, 산물, 군사, 법속, 교육, 무역 등 하멜이 직접 보고 들은 내용을
+									담고 있다.</p>
+								<p>『하멜 표류기』는 조선에 대해 아는 것이 거의 없던 유럽인들에게 조선을 소개한 최초의 자료라고 할 수
+									있다. 『하멜 표류기』는 효종 시대의 정치, 사회상은 물론 효종의 북벌 의지를 엿볼 수 있는 귀중한 자료이다.</p>
 								<p>주소: 제주특별자치도 제주시 용두암길 15</p>
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.4289189377364!2d126.50948341201968!3d33.51623227325245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350ce4b2810e4315%3A0x3044bfd3cfaa7bb0!2sYongduam%20Rock!5e0!3m2!1sen!2skr!4v1714976157041!5m2!1sen!2skr"
@@ -441,11 +439,11 @@ button:hover::before {
 							</td>
 						</tr>
 						<tr>
-							<th><img src="${ipath}/images/tour/seongsan_250.png" alt=""></th>
+							<th><img src="${ipath}/images/artifact/train_250.jpg" alt=""></th>
 							<td>
 								<p>
-									<strong>장소명</strong> : 성산일출봉<br> <strong>주소</strong> :
-									제주특별자치도 서귀포시 색달동 2889번지 중문관광단지 입구<br> <strong>영업
+									<strong>명칭</strong> : 미카형 증기기관차 304호<br> <strong>주소</strong>
+									: 제주특별자치도 서귀포시 색달동 2889번지 중문관광단지 입구<br> <strong>영업
 										시간</strong> : 오전 09:00 ~ 오후 6:00 (입장마감 17:30)<br> <strong>입장
 										요금</strong> : 성인 12000, 청소년 11000 어린이 10000<br> <strong>홈페이지</strong>
 									: <a href="#">오구당당.com</a><br> <strong>전화번호</strong> :
@@ -455,14 +453,15 @@ button:hover::before {
 								<pattern id="myModal3" class="modal"> <!-- Modal content -->
 								<pattern class="modal-content"> <pattern
 									class="modal-header">
-								<h2>성산일츨봉</h2>
+								<h2>미카형 증기기관차 304호</h2>
 								<span class="close">×</span> </pattern> <pattern class="modal-body">
-								<p>설명: 성산일출봉은 제주도의 다른 오름들과는 달리 마그마가 물속에서 분출하면서 만들어진 수성화산체다.
-									화산활동시 분출된 뜨거운 마그마가 차가운 바닷물과 만나면서 화산재가 습기를 많이 머금어 끈끈한 성질을 띄게
-									되었고, 이것이 층을 이루면서 쌓인 것이 성산일출봉이다. 바다 근처의 퇴적층은 파도와 해류에 의해 침식되면서
-									지금처럼 경사가 가파른 모습을 띄게 되었다. 생성 당시엔 제주 본토와 떨어진 섬이었는데, 주변에 모래와 자갈등이
-									쌓이면서 간조 때면 본토와 이어지는 길이 생겼고, 1940년엔 이곳에 도로가 생기면서 현재는 육지와 완벽하게
-									연결되어 있다.</p>
+								<p>제주특별자치도 제주시 연동의 삼무 공원에 전시되어 있는, 일제 강점기에 제작된 텐더식 증기 기관차이다.
+								</p>
+								<p>국내에 유일하게 남아 있는 석탄용 증기 기관차로 석탄과 물을 싣는 탄수차와 함께 원형 그대로 잘 남아
+									있어 2008년 10월 17일 국가등록문화재 제414호로 지정되었고, 2021년 11월 19일 문화재청 고시에
+									의해 문화재 지정번호가 폐지되어 국가등록문화재로 재지정되었다.</p>
+								<p>석탄용 원료 기관차가 중유용으로 개조되지 않고 원형이 그대로 남아 있는 국내 유일의 증기 기관차로 철도
+									산업 발달사에 있어 사료적 가치가 크다.</p>
 								<p>주소: 제주특별자치도 서귀포시 성산읍 일출로 284-12</p>
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.6485055090293!2d126.93740044869463!3d33.45846298045431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350d14b9712b7577%3A0x636ffe4d7eccbc05!2sSeongsan%20Ilchulbong!5e0!3m2!1sen!2skr!4v1714999918772!5m2!1sen!2skr"
@@ -474,11 +473,11 @@ button:hover::before {
 							</td>
 						</tr>
 						<tr>
-							<th><img src="${ipath}/images/tour/udo_250.jpg" alt=""></th>
+							<th><img src="${ipath}/images/artifact/tools_250.jpg" alt=""></th>
 							<td>
 								<p>
-									<strong>장소명</strong> : 우도<br> <strong>주소</strong> :
-									제주특별자치도 제주시 우도면<br> <strong>영업 시간</strong> : 날씨에 따라 변동<br>
+									<strong>명칭</strong> : 제주 해녀의 물옷과 물질도구<br> <strong>주소</strong>
+									: 제주특별자치도 제주시 우도면<br> <strong>영업 시간</strong> : 날씨에 따라 변동<br>
 									<strong>입장 요금</strong> : 선박 가격 참조<br> <strong>홈페이지</strong>
 									: <a href="#">오구당당.com</a><br> <strong>전화번호</strong> :
 									064-728-1527
@@ -487,22 +486,17 @@ button:hover::before {
 								<pattern id="myModal4" class="modal"> <!-- Modal content -->
 								<pattern class="modal-content"> <pattern
 									class="modal-header">
-								<h2>우도</h2>
+								<h2>제주 해녀의 물옷과 물질도구</h2>
 								<span class="close">×</span> </pattern> <pattern class="modal-body">
-								<p>설명: 우도는 소가 누워있는 모양을 닮았다고 해서 일찍부터 소섬 또는 쉐섬으로 불리웠다. 완만한 경사와
-									옥토, 풍부한 어장, 우도팔경 등 천혜의 자연조건을 갖춘 관광지로써 한해 약 200만 명의 관광객이 찾는 제주의
-									대표적인 부속섬이다. 성산항과 종달항에서 우도가는 배를 탈 수 있는데 어디서 출발하든 15분 정도 소요된다. 섬의
-									길이는 3.8km, 둘레는 17km. 쉬지 않고 걸으면 3~4시간 걸리는 거리지만, 대부분의 관광객은 버스나
-									자전거, 미니 전기차를 타고 유명한 관광지 위주로 돌아본다. 검멀레해변이나 우도봉, 홍조단괴해변, 하고수동해변 등
-									유명한 관광지 1-2개를 둘러보고, 카페나 음식점에서 휴식을 즐겨도 대략 3-4시간 정도 소요된다. 여유있게
-									우도를 즐기고 싶다면 오전 아침배를 타고 들어가 오후 배를 타고 나와 하루종일 우도에 머물러 보는것도 좋다. 단,
-									기상에 따라 배 운항여부가 달라질수 있으니 우도 여행일정을 짜는데는 기상조건을 필히 확인해야한다. 우도를 찾는
-									관광객은 홍조단괴해변, 우도봉, 검멀레 해변을 주로 찾는다. 홍조단괴해변은 산호해변으로도 불렸는데, 백사장을 이룬
-									하얀 알갱이가 산호가 아닌 홍조류가 딱딱하게 굳어 알갱이처럼 부서지면서 만들어진 것이 밝혀지면서 홍조단괴해변으로
-									부르며, 홍조류로 이뤄진 백사장은 세계에서 드물어 보호하고 있다. 너른 백사장과 아름다운 바다색으로 유명한
-									하고수동해수욕장도 있다. 경사가 완만한 천진동 코스와 경치가 멋진검멀레 해안코스가 있으며, 우도봉에 올라 우도의
-									전경을 바라볼 수도 있다. 자연 절경 이외에도 바다낚시, 자전거 하이킹, 잠수함과 유람선 등을 통해 여행의 재미를
-									더하고 있다.</p>
+								<p>제주특별자치도 제주시 구좌읍 하도리 해녀 박물관에 있는 제주 해녀의 물옷과 물질도구.</p>
+								<p>제주 해녀의 물옷과 물질도구 는 옛날부터 현대에 이르기까지의 제주도 해녀들이 바다에서 물질할 때 입던
+									옷인 물옷과 각종 도구 15점으로 구성되었는데, 해녀 박물관에 소장된 유물 중에서 가장 오래되고 출처가 분명한
+									것을 기능별로 1점씩 선정하여 지정했다.</p>
+								<p>제주 해녀의 물옷과 물질도구 는 제주 해녀들이 맨몸으로 물질을 하면서 어장 조건과 작어 환경에 맞게
+									적절히 고안한 것으로, 효율적인 기능성과 제작 기법의 창의성 등 거친 제주 바다의 자연환경과 노동 조건을 극복한
+									제주 해녀들의 지혜를 엿볼 수 있다.</p>
+								<p>제주 해녀의 물옷과 물질도구 는 세계에서 가장 오래된 여성 전문 직업인인 제주 해녀들의 고유 문화를
+									연구하는 데 필수적인 자료로 평가받고 있다.</p>
 								<p>주소: 제주특별자치도 제주시 우도면</p>
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26614.047599368343!2d126.91691053754253!3d33.5077261482285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350d6aad13b6b9ab%3A0x76be50d31a67c52!2sUdo-myeon%2C%20Jeju-si%2C%20Jeju-do!5e0!3m2!1sen!2skr!4v1715000972237!5m2!1sen!2skr"
@@ -514,10 +508,10 @@ button:hover::before {
 							</td>
 						</tr>
 						<tr>
-							<th><img src="${ipath}/images/tour/oshal_250.jpg" alt=""></th>
+							<th><img src="${ipath}/images/artifact/yeondae_250.jpg" alt=""></th>
 							<td>
 								<p>
-									<strong>장소명</strong> : 오설록티뮤지엄<br> <strong>주소</strong> :
+									<strong>명칭</strong> : 별도연대<br> <strong>주소</strong> :
 									제주특별자치도 서귀포시 안덕면 신화역사로 15<br> <strong>영업 시간</strong> :
 									0900~1800<br> <strong>입장 요금</strong> : 무료<br> <strong>홈페이지</strong>
 									: <a href="#">오구당당.com</a><br> <strong>전화번호</strong> :
@@ -527,17 +521,18 @@ button:hover::before {
 								<pattern id="myModal5" class="modal"> <!-- Modal content -->
 								<pattern class="modal-content"> <pattern
 									class="modal-header">
-								<h2>오설록티뮤지엄</h2>
+								<h2>별도연대</h2>
 								<span class="close">×</span> </pattern> <pattern class="modal-body">
-								<p>설명: 2001년 9월 개관한 오설록티뮤지엄은 국내외 차 관련 물품과 박물관이며, 푸른 녹차밭이
-									펼쳐지는 제주도 서광다원 입구에 위치하고 있다. 동서양 전통과 현대가 조화를 이룬 문화의 공간이자, 자연 친화적인
-									휴식공간으로, 건물 전체가 녹차잔을 형상화하여 만들어졌다. 녹차와 한국 전통 차 문화를 이해할 수 있는 학습
-									공간으로 설록차의 모든 것을 체험해 볼 수 있는 곳이다. 오설록의 ‘오’는 경쾌한 감탄의 의미와 함께,
-									origin of sulloc, only sulloc, of sulloc cha의 의미를 가지고 있다. 실내에
-									가득한 녹차향과 통유리 너머로 보이는 푸른 녹차밭이 마음을 편하게 만들어줘, 제주를 찾는 많은 관광객이 한번쯤은
-									들르는 명소가 되었다. 티 하우스에서는 티 마스터가 직접 볶은 따뜻한 차와 오설록 녹차로 만든 음료 아이스크림,
-									롤케익크 등을 즐길 수 있다. 특히 진한 녹색의 그린티 롤케익크은 많이 달지 않아 어른들에게도 환영을 받는다.</p>
-								<p>주소: 제주특별자치도 서귀포시 안덕면 신화역사로 15</p>
+								<p>설명: 제주특별자치도 제주시 화북1동에 있는 조선 전기의 통신 시설. 횃불과 연기를 이용해서 급한
+									소식을 전달하는 연대 중 하나이다. 별도연대는 1999년에 석축으로 복원되었다. 별도연대는 제주도 내 일반적인
+									연대의 형태인 사다리꼴 형태에 기단 주위에 타원형의 방호벽이 설치되어 있다. 연대의 하부 폭은
+									8.74m×9.1m, 높이는 2.5m이다. 연대의 계단은 폭 1.4m, 길이가 2.7m이다. 지면에서 방호벽에
+									오르는 계단은 길이 4.95m, 폭 1.4m이다. 축조 방식은 허튼층쌓기로 축조되었다.</p>
+								<p>제주도 내 해안 구릉에 위치한 연대는 연대와 연대, 혹은 내지봉수와 연결하는 연변봉수의 기능을
+									담당하였다. 별도연대는 제주도의 전형적인 연대의 형태와는 달리 독특한 방호벽 시설이 있는 연대로서 제주의 관방
+									시설을 연구하는 데 중요한 학술적 자료를 제공하고 있다. 1996년 7월 18일 제주특별자치도 기념물
+									제23-9호로 지정되었고, 2021년 11월 19일 문화재청 고시에 의해 문화재 지정번호가 폐지되어 제주특별자치도
+									기념물로 재지정되었다.</p>
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.4289189377364!2d126.50948341201968!3d33.51623227325245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350ce4b2810e4315%3A0x3044bfd3cfaa7bb0!2sYongduam%20Rock!5e0!3m2!1sen!2skr!4v1714976157041!5m2!1sen!2skr"
 									width="600" height="450" style="border: 0;" allowfullscreen=""
@@ -548,10 +543,10 @@ button:hover::before {
 							</td>
 						</tr>
 						<tr>
-							<th><img src="${ipath}/images/tour/marado_250.jpg" alt=""></th>
+							<th><img src="${ipath}/images/artifact/lighthouse_250.png" alt=""></th>
 							<td>
 								<p>
-									<strong>가게명</strong> : 마라도<br> <strong>주소</strong> :
+									<strong>명칭</strong> : 구엄리 도대불<br> <strong>주소</strong> :
 									제주특별자치도 서귀포시 대정읍 마라로101번길 46 <br> <strong>영업 시간</strong> :
 									날씨에 따라 변동<br> <strong>입장 요금</strong> : 선박 가격 참조<br> <strong>홈페이지</strong>
 									: <a href="#">더히든키친.com</a><br> <strong>전화번호</strong> :
@@ -560,15 +555,14 @@ button:hover::before {
 								<button class="modal-button" href="#myModal6">더보기</button> <!-- The Modal -->
 								<pattern id="myModal6" class="modal"> <!-- Modal content -->
 								<pattern class="modal-content"> <pattern
-									class="modal-header">
-								<h2>마라도</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
-								<p>설명: 한국 최남단의 섬으로 면적 약 9만평, 최장길이 약 1.3km, 모슬포에서 남쪽으로 11km
-									해상에 위치한다. 운진항에서 배를 타고 30분 정도 소요되는데, 정기 여객선과 관광 유람선이 하루 수 차례 왕복
-									운항하고 있다. 마라도는 위에서 보면 고구마 형태를 띠고 있으며, 전체적으로 평평하나, 등대가 있는 동쪽으로는
-									해풍의 영향으로 기암절벽을 이룬다. 등대가 있는 가장 높은 곳이 약 해발 39m다. 서쪽 해안은 해식동굴이
-									발달되어 있으며 섬 중앙에서 서쪽 기슭에 마을이 자리잡고 있다. 주민들은 약 130여명(2015년 기준)으로,
-									주로 어업에 종사하나, 관광객이 늘어나면 민박을 겸하는 주민들이 많다.</p>
+									class="modal-header"> 	<h2>구엄리 도대불</h2><span class="close">×</span>
+							
+								</pattern> <pattern class="modal-body">
+								<p>설명: 제주특별자치도 제주시 애월읍 구엄리관련항목 보기에 있는 도대불. 밤에 조업을 나간 어선들이 항구로 돌아올 수 있도록 하기 위해서 건립되었다.
+	</p><p>
+구엄리 도대불은 1950년대에 상자형 도대불을 축조하고 상단에 철제탑을 세워 호롱불로 불을 밝혔다. 조업을 나가든 나가지 않든 매일 불을 켰다가 새벽녘에 껐다. 선창 주변은 바다를 관망하기에 아주 좋은 위치이다. 한편 강한 해풍에도 이 도대불 주변에는 파도가 닿지 않았다고 한다. 1974년 인근에 아세아 방송국이 개국되어 방송국 안테나의 불빛으로 선창의 위치를 찾을 수 있게 되자 더 이상 도대불을 사용하지 않게 되었다.
+	</p><p>
+제주도의 도대불은 최근 몇 년 사이에 거의 사라지고 없다. 그럼에도 구엄리 도대불은 옛 모습이 보존되고 있다.</p>
 								<p>주소: 제주특별자치도 서귀포시 대정읍 마라로101번길 46</p>
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3341.6371413958195!2d126.2645162112169!3d33.11862216633981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350c3fe3464e3e15%3A0x937c53e42ca50e6!2s46%20Mara-ro%20101beon-gil%2C%20Daejeong-eup%2C%20Seogwipo%2C%20Jeju-do!5e0!3m2!1sen!2skr!4v1715005945473!5m2!1sen!2skr"
@@ -652,8 +646,7 @@ button:hover::before {
 					}
 				}
 			</script>
-			<br>
-			<br>
+			<br> <br>
 			<div id="copyright">
 				<p class="addr">[21354] 인천광역시 부평구 부평대로 168 (대표전화) ☎032-504-2114
 				</p>

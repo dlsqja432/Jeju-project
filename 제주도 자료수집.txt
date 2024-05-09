@@ -14,9 +14,9 @@
 네비게이션 설계
 	메뉴 내용 : 지역 소개		이용안내			관광정보			커뮤니티			마이페이지
 		  지역 유래		교통편 안내		관광지			공지사항			(회원가입)회원 로그인
-		  (origin.jsp)		(traffic.jsp)					(noticeList.jsp)		(login.jsp)
+		  (origin.jsp)		(traffic.jsp)		(tour.jsp)			(noticeList.jsp)		(login.jsp)
 		  지역 역사		공공기관 안내		문화재			자료실			(회원가입)나의 정보
-		  (history.jsp)		(building.jsp)					(data.jsp)			(myPage.jsp)
+		  (history.jsp)		(building.jsp)		(artifacts.jsp)				(data.jsp)			(myPage.jsp)
 		  지역 특징 및 시설안내	음식점 안내		추천 여행코스		묻고 답하기		회원 약관
 		  (facility.jsp)		(foods.jsp)					(qnaList.jsp)		(terms.jsp)
 					숙박시설 안내								개인정보처리방침
