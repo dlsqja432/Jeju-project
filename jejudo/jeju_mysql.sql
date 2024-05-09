@@ -6,7 +6,7 @@ jdate datetime default current_timestamp, addr varchar(300), postcode varchar(8)
 alter table member add addr varchar(300);
 alter table member add postcode varchar(8);
 select * from member;
-insert into member values('user1', 'up', 'inbeom', 'dlsqja432naver.com', '123456', default); 
+insert into member values('user8', 'up', 'inbeom', 'dlsqja432naver.com', '123456', default,'ddd $ ddd', 'dadf'); 
 insert into member values('admin', '1234', '관리자', 'admin@naver.com', '010-1234-5678', default);
 update member set addr='십정동 $ 909', postcode='12-345' where id='admin';
 update member set addr='가산동 $ 456', postcode='54-321' where id='user2';
@@ -18,7 +18,7 @@ update member set pw='DFHnCr0fX0fgMs3J1/7fGFYuvCR6pVbE5f2L3+aQNxtMPKzUN5i1GBpV4s
 
 -- notice 테이블 생성
 create table notice(no int auto_increment primary key, title varchar(200), content varchar(2000), resdate datetime default current_timestamp, visited int);
-select * from notice;
+select * from notice order by no desc;
 insert into notice (title, content, resdate, visited) values('더미제목2', '더미내용2', default, 0);
 
 

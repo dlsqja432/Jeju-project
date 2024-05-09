@@ -73,12 +73,6 @@ public class DataInsCtrl extends HttpServlet {
 			DataDAO dao = new DataDAO();
 			int cnt = dao.insData(data);
 			
-			if(cnt>0) {
-				System.out.println("자료 추가 성공~!");
-			} else {
-				System.out.println("자료 추가 실패~!");
-			}
-
 			String home = application.getContextPath();
 			if(cnt>0) {
 				response.sendRedirect(home+"/DataList.do");

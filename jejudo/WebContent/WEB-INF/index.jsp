@@ -22,10 +22,6 @@
     float:left; border-bottom-right-radius: 80px; position: relative;}
 .recommend p { text-align: center; font-size: 20px; font-weight: bold; }
 .recommend .div_btn { text-align: right; padding-top: 20px; padding-right: 40px; }
-.recommend .btn { text-align: center; width: 100px; height: 40px; border-radius: 20px;
-    font-size: 16px; cursor: pointer; border-style: none; background-color: #ffff9c; 
-    font-weight: bold; }
-.recommend .btn:hover { background-color: #afebff; }
 .re_wrap { width:100%; clear:both; }	
 .re_wrap:after { content:""; display: block; width:100%; clear:both; }
 .subtitle { text-align:center; z-index:3}
@@ -116,7 +112,6 @@ article.art2 { background-color:#afebff; top:-15px; right:-360px; z-index:2; fil
 </head>
 <body>
 <%@ include file="/header.jsp" %>
-
 <main id="contents" class="clr-fix">
 	<figure id="vs">
 	    <!--
@@ -135,22 +130,22 @@ article.art2 { background-color:#afebff; top:-15px; right:-360px; z-index:2; fil
                     <article class="art1"></article>
                     <article class="art2"></article>
                 </div>
-                <h2 class="subtitle"><strong>부평의 축제</strong></h2>
+                <h2 class="subtitle"><strong>제주의 축제</strong></h2>
                 <img class="img_item" src="images/hanok.jpg" alt="한옥사진">
                 <p>부평 문화의 거리에서 다양한 축제를 즐겨보세요!</p>
                 <div class="div_btn">
                     <a href="#">
-                        <button type="button" class="btn">더보기</button>
+                        <button type="button" class="btns">더보기</button>
                     </a>
                 </div>
             </div>
             <div class="recommend" id="recommend2">
                 <h2 class="subtitle"><strong>맛집 소개</strong></h2>
                 <img class="img_item" src="images/udo1.jpg" alt="한옥사진">
-                <p>부평의 맛집을 소개합니다!</p>
+                <p>제주의 맛집을 소개합니다!</p>
                 <div class="div_btn">
                     <a href="#">
-                        <button type="button" class="btn">더보기</button>
+                        <button type="button" class="btns">더보기</button>
                     </a>
                 </div>
             </div>
@@ -168,58 +163,77 @@ article.art2 { background-color:#afebff; top:-15px; right:-360px; z-index:2; fil
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>10</td>
-                        <td><a href="" class="n_tit">게시글 10 게시글 10 게시글 10 게시글 10 게시글 10 게시글 10 게시글 10 게시글 10게시글 10 게시글 10 게시글 10 게시글 10게시글 10 게시글 10 게시글 10 게시글 10 게시글 10 게시글 10 게시글 10 게시글 10</a></td>
-                        <td>2024-04-20</td>
-                    </tr>
-                    <tr>
-                        <td>9</td>
-                        <td><a href="" class="n_tit">게시글 9 게시글 9 게시글 9 게시글 9게시글 9 게시글 9 게시글 9 게시글 9 게시글 9 게시글 9게시글 9 게시글 9 게시글 9 게시글 9 게시글 9 게시글 9 게시글 9 게시글 9 게시글 9 게시글 9 게시글 9 게시글 9 게시글 9 게시글 9 게시글 9</a></td>
-                        <td>2024-04-19</td>
-                    </tr>
-                    <tr>
-                        <td>8</td>
-                        <td><a href="" class="n_tit">게시글 8 게시글 8 게시글 8 게시글 8 게시글 8 게시글 8 게시글 8 게시글 8 게시글 8 게시글 8 게시글 8 게시글 8 게시글 8 게시글 8 게시글 8게시글 8 게시글 8 게시글 8 게시글 8</a></td>
-                        <td>2024-04-18</td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td><a href="" class="n_tit">게시글 7</a></td>
-                        <td>2024-04-17</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td><a href="" class="n_tit">게시글 6</a></td>
-                        <td>2024-04-16</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td><a href="" class="n_tit">게시글 5</a></td>
-                        <td>2024-04-14</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td><a href="" class="n_tit">게시글 4</a></td>
-                        <td>2024-04-13</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td><a href="" class="n_tit">게시글 3</a></td>
-                        <td>2024-04-12</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td><a href="" class="n_tit">게시글 2</a></td>
-                        <td>2024-04-11</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td><a href="" class="n_tit">게시글 1</a></td>
-                        <td>2024-04-10</td>
-                    </tr>
+                	<c:if test="${not empty notiList }">
+                		<c:forEach var="dto" items="${notiList }">
+                			<tr>
+		                        <td>${dto.no }</td>
+		                        <td><a href="" class="n_tit">${dto.title }</a></td>
+		                        <td>${dto.resdate }</td>
+		                    </tr>
+                		</c:forEach>
+                	</c:if>
+                	<c:if test="${empty notiList }">
+                		<tr>
+                			<td>공지사항이 없습니다.</td>
+                		</tr>
+                	</c:if>
                 </tbody>
             </table>
+        </div>
+    </section>
+    <section class="page" id="page6">
+        <h2 class="page_title">아이콘 목록</h2>
+        <div class="tb_wrap">
+            <ul class="icon_lst">
+                <li>
+                    <a href="">
+                        <div class="icon_fr"><img src="boxIcon1.png" alt="아이콘1"></div>
+                        <h3 class="icon_tit">아이콘 제목</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="icon_fr"><img src="boxIcon2.png" alt="아이콘2"></div>
+                        <h3 class="icon_tit">아이콘 제목</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="icon_fr"><img src="boxIcon3.png" alt="아이콘3"></div>
+                        <h3 class="icon_tit">아이콘 제목</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="icon_fr"><img src="boxIcon4.png" alt="아이콘4"></div>
+                        <h3 class="icon_tit">아이콘 제목</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="icon_fr"><img src="boxIcon5.png" alt="아이콘5"></div>
+                        <h3 class="icon_tit">아이콘 제목</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="icon_fr"><img src="boxIcon6.png" alt="아이콘6"></div>
+                        <h3 class="icon_tit">아이콘 제목</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="icon_fr"><img src="boxIcon7.png" alt="아이콘7"></div>
+                        <h3 class="icon_tit">아이콘 제목</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="icon_fr"><img src="boxIcon8.png" alt="아이콘8"></div>
+                        <h3 class="icon_tit">오시는 길</h3>
+                    </a>
+                </li>
+            </ul>
         </div>
     </section>
     <section class="page" id="page3">
@@ -338,61 +352,6 @@ article.art2 { background-color:#afebff; top:-15px; right:-360px; z-index:2; fil
                 </li>
                 <li id="item7" class="box2">
                     <div class="box">item7</div>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <section class="page" id="page6">
-        <h2 class="page_title">아이콘 목록</h2>
-        <div class="tb_wrap">
-            <ul class="icon_lst">
-                <li>
-                    <a href="">
-                        <div class="icon_fr"><img src="boxIcon1.png" alt="아이콘1"></div>
-                        <h3 class="icon_tit">아이콘 제목</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <div class="icon_fr"><img src="boxIcon2.png" alt="아이콘2"></div>
-                        <h3 class="icon_tit">아이콘 제목</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <div class="icon_fr"><img src="boxIcon3.png" alt="아이콘3"></div>
-                        <h3 class="icon_tit">아이콘 제목</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <div class="icon_fr"><img src="boxIcon4.png" alt="아이콘4"></div>
-                        <h3 class="icon_tit">아이콘 제목</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <div class="icon_fr"><img src="boxIcon5.png" alt="아이콘5"></div>
-                        <h3 class="icon_tit">아이콘 제목</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <div class="icon_fr"><img src="boxIcon6.png" alt="아이콘6"></div>
-                        <h3 class="icon_tit">아이콘 제목</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <div class="icon_fr"><img src="boxIcon7.png" alt="아이콘7"></div>
-                        <h3 class="icon_tit">아이콘 제목</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <div class="icon_fr"><img src="boxIcon8.png" alt="아이콘8"></div>
-                        <h3 class="icon_tit">아이콘 제목</h3>
-                    </a>
                 </li>
             </ul>
         </div>

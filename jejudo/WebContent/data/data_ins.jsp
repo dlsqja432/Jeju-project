@@ -71,7 +71,7 @@
                 
 				<div class="page_wrap">
 					<h3 class="page_title">자료 등록</h3>
-					<form action="${path0 }/DataIns.do" method="post">
+					<form action="${path0 }/DataIns.do" method="post" enctype="multipart/form-data">
 						<table class="table">
 							 <tbody>
 							 	<tr>
