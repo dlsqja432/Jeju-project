@@ -37,18 +37,18 @@
 	        <li class="item">
 	            <a href="" class="dp1">이용안내</a>
 	            <ul class="sub_menu">
-	                <li><a href="${hpath }/GetTrafficList.do">교통편 안내</a></li>
-	                <li><a href="${hpath }/tour/building.jsp">공공기관 안내</a></li>
-	                <li><a href="${hpath }/tour/food.jsp">음식점 안내</a></li>
-	                <li><a href="${hpath }/tour/hotel.jsp">숙박 시설 안내</a></li>
+	                <li><a href="${hpath }/information/traffic.jsp">교통편 안내</a></li>
+	                <li><a href="${hpath }/information/building.jsp">공공기관 안내</a></li>
+	                <li><a href="${hpath }/information/food.jsp">음식점 안내</a></li>
+	                <li><a href="${hpath }/information/hotel.jsp">숙박 시설 안내</a></li>
 	            </ul>
 	        </li>
 	        <li class="item">
 	            <a href="" class="dp1">관광정보</a>
 	            <ul class="sub_menu">
 	                <li><a href="${hpath }/tour/tour.jsp">관광지</a></li>
-	                <li><a href="">문화재</a></li>
-	                <li><a href="">추천 여행코스</a></li>
+	                <li><a href="${hpath }/tour/artifacts.jsp">문화재</a></li>
+	                <li><a href="${hpath }/tour/tourCourse.jsp">추천 여행코스</a></li>
 	            </ul>
 	        </li>
 	        <li class="item">
