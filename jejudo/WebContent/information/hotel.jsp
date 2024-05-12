@@ -383,7 +383,7 @@ button:hover::before {
 				<table class="table">
 					<tbody>
 						<tr>
-							<th><img src="${ipath}/images/hotel1/hotel1.jpg" alt=""></th>
+							<th><img src="${ipath}/images/hotel/hotel1.jpg" alt=""></th>
 							<td>
 								<p>
 									<strong>장소명</strong> : 애월 탐라스테이호텔 제주<br> <strong>주소</strong> : 제주특별자치도
@@ -407,7 +407,7 @@ button:hover::before {
 							</td>
 						</tr>
 						<tr>
-							<th><img src="${ipath}/images/hotel2/hotel2.jpg" alt=""></th>
+							<th><img src="${ipath}/images/hotel/hotel2.jpg" alt=""></th>
 							<td>
 								<p>
 									<strong>장소명</strong> : 제주 시내 엠버호텔<br> <strong>주소</strong> :
@@ -432,22 +432,22 @@ button:hover::before {
 							</td>
 						</tr>
 						<tr>
-							<th><img src="${ipath}/images/food/food03.jpg" alt=""></th>
+							<th><img src="${ipath}/images/hotel/hotel3.jpg" alt=""></th>
 							<td>
 								<p>
-									<strong>장소명</strong> : 청담집<br> <strong>주소</strong> : 제주
-									제주시 월랑로 83<br> <strong>영업 시간</strong> : 평일 및 토요일 오전 07:00
-									~ 오후 11:00 <br> 일요일 07:00 ~ 오후 9:00<br> <strong>전화번호</strong>
+									<strong>장소명</strong> : 서귀포 JnB가족호텔<br> <strong>주소</strong> : 제주특별자치도
+									서귀포시 토평남로30번길 10-12<br> <strong>링크</strong> : http://www.jnbhotel.com
+									 <br> 일요일 07:00 ~ 오후 9:00<br> <strong>전화번호</strong>
 									: 064-738-7600
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal3">더보기</button> <!-- The Modal -->
 								<pattern id="myModal3" class="modal"> <!-- Modal content -->
 								<pattern class="modal-content"> <pattern
 									class="modal-header">
-								<h2>청담집</h2>
+								<h2>서귀포 JnB가족호텔</h2>
 								<span class="close">×</span> </pattern> <pattern class="modal-body">
 
-								<p>주소: 제주 제주시 월랑로 83</p>
+								<p>주소: 제주특별자치도 서귀포시 토평남로30번길 10-12 83</p>
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.6485055090293!2d126.93740044869463!3d33.45846298045431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350d14b9712b7577%3A0x636ffe4d7eccbc05!2sSeongsan%20Ilchulbong!5e0!3m2!1sen!2skr!4v1714999918772!5m2!1sen!2skr"
 									width="600" height="450" style="border: 0;" allowfullscreen=""
@@ -458,20 +458,20 @@ button:hover::before {
 							</td>
 						</tr>
 						<tr>
-							<th><img src="${ipath}/images/food/food04.jpg" alt=""></th>
+							<th><img src="${ipath}/images/hotel/hotel4.jpg" alt=""></th>
 							<td>
 								<p>
-									<strong>장소명</strong> : 남또리횟집<br> <strong>주소</strong> : 제주
-									제주시 애월읍 애월해안로 384<br> <strong>영업 시간</strong> : 오전 11:00 ~
-									오후 10:30<br> <strong>전화번호</strong> : 064-799-1711
+									<strong>장소명</strong> : 성산 오션스퀘어 리조트<br> <strong>주소</strong> : 제주특별자치도
+									서귀포시 성산읍 환해장성로 667 384<br> <strong>링크</strong> : https://naver.me/xQONU3T9
+									<br> <strong>전화번호</strong> : 064-717-7300
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal4">더보기</button> <!-- The Modal -->
 								<pattern id="myModal4" class="modal"> <!-- Modal content -->
 								<pattern class="modal-content"> <pattern
 									class="modal-header">
-								<h2>남또리횟집</h2>
+								<h2>성산 오션스퀘어 리조트</h2>
 								<span class="close">×</span> </pattern> <pattern class="modal-body">
-								<p>주소: 제주 제주시 애월읍 애월해안로 384</p>
+								<p>주소: 제주특별자치도 서귀포시 성산읍 환해장성로 667 384</p>
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26614.047599368343!2d126.91691053754253!3d33.5077261482285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350d6aad13b6b9ab%3A0x76be50d31a67c52!2sUdo-myeon%2C%20Jeju-si%2C%20Jeju-do!5e0!3m2!1sen!2skr!4v1715000972237!5m2!1sen!2skr"
 									width="600" height="450" style="border: 0;" allowfullscreen=""
@@ -482,20 +482,20 @@ button:hover::before {
 							</td>
 						</tr>
 						<tr>
-							<th><img src="${ipath}/images/food/food05.jpg" alt=""></th>
+							<th><img src="${ipath}/images/hotel/hotel5.jpg" alt=""></th>
 							<td>
 								<p>
-									<strong>장소명</strong> : 하하호호 우도점<br> <strong>주소</strong> :
-									제주특별자치도 제주시 우도면 우도해안길 532<br> <strong>영업 시간</strong> : 오전
-									9:00 ~ 오후 6:00<br> <strong>전화번호</strong> : 010-2899-1365
+									<strong>장소명</strong> : 바다에서잘래펜션<br> <strong>주소</strong> :
+									제주시 한림읍 협재1길 33<br> <strong>링크</strong> : https://naver.me/xWNIaIVY
+									<br> <strong>전화번호</strong> : 064-796-7250
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal5">더보기</button> <!-- The Modal -->
 								<pattern id="myModal5" class="modal"> <!-- Modal content -->
 								<pattern class="modal-content"> <pattern
 									class="modal-header">
-								<h2>하하호호 우도점</h2>
+								<h2>바다에서잘래펜션</h2>
 								<span class="close">×</span> </pattern> <pattern class="modal-body">
-								<p>주소: 제주특별자치도 제주시 우도면 우도해안길 532</p>
+								<p>주소: 제주시 한림읍 협재1길 33</p>
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.4289189377364!2d126.50948341201968!3d33.51623227325245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350ce4b2810e4315%3A0x3044bfd3cfaa7bb0!2sYongduam%20Rock!5e0!3m2!1sen!2skr!4v1714976157041!5m2!1sen!2skr"
 									width="600" height="450" style="border: 0;" allowfullscreen=""
@@ -506,20 +506,20 @@ button:hover::before {
 							</td>
 						</tr>
 						<tr>
-							<th><img src="${ipath}/images/food/food06.jpg" alt=""></th>
+							<th><img src="${ipath}/images/hotel/hotel6.jpg" alt=""></th>
 							<td>
 								<p>
-									<strong>가게명</strong> : 춘심이네2호점<br> <strong>주소</strong> :
-									제주 제주시 1100로 3114 <strong>영업 시간</strong> : 오전 9:00 ~ 오후 9:00<br>
-									<strong>전화번호</strong> : 064-711-4020
+									<strong>가게명</strong> : 애월더선셋리조트<br> <strong>주소</strong> :
+									제주시 애월읍 일주서로 6111 (곽지리1381) <strong>영업 시간</strong> : https://naver.me/GvdeQJqQ<br>
+									<strong>전화번호</strong> : 064-799-7177
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal6">더보기</button> <!-- The Modal -->
 								<pattern id="myModal6" class="modal"> <!-- Modal content -->
 								<pattern class="modal-content"> <pattern
 									class="modal-header">
-								<h2>춘심이네2호점</h2>
+								<h2>애월더선셋리조트</h2>
 								<span class="close">×</span> </pattern> <pattern class="modal-body">
-								<p>주소: 제주 제주시 1100로 3114</p>
+								<p>주소: 제주시 애월읍 일주서로 6111 (곽지리1381)</p>
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3341.6371413958195!2d126.2645162112169!3d33.11862216633981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350c3fe3464e3e15%3A0x937c53e42ca50e6!2s46%20Mara-ro%20101beon-gil%2C%20Daejeong-eup%2C%20Seogwipo%2C%20Jeju-do!5e0!3m2!1sen!2skr!4v1715005945473!5m2!1sen!2skr"
 									width="600" height="450" style="border: 0;" allowfullscreen=""
@@ -530,20 +530,20 @@ button:hover::before {
 							</td>
 						</tr>
 						<tr>
-							<th><img src="${ipath}/images/food/food07.jpg" alt=""></th>
+							<th><img src="${ipath}/images/hotel/hotel7.jpg" alt=""></th>
 							<td>
 								<p>
-									<strong>가게명</strong> : 연북로해물탕<br> <strong>주소</strong> : 제주
-									제주시 연북로 221 <strong>영업 시간</strong> : 오전 10:00 ~ 오후 10:00<br>
-									<strong>전화번호</strong> : 064-742-0110
+									<strong>가게명</strong> : 히든클리프호텔&네이쳐<br> <strong>주소</strong> : 제주특별자치도
+									서귀포시 예래해안로 542 <strong>링크</strong> : https://naver.me/FFvabb3x<br>
+									<strong>전화번호</strong> : 064-752-7777
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal7">더보기</button> <!-- The Modal -->
 								<pattern id="myModal7" class="modal"> <!-- Modal content -->
 								<pattern class="modal-content"> <pattern
 									class="modal-header">
-								<h2>연북로해물탕</h2>
+								<h2>히든클리프호텔&네이쳐</h2>
 								<span class="close">×</span> </pattern> <pattern class="modal-body">
-								<p>주소: 제주 제주시 연북로 221</p>
+								<p>주소: 제주특별자치도 서귀포시 예래해안로 542 221</p>
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3341.6371413958195!2d126.2645162112169!3d33.11862216633981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350c3fe3464e3e15%3A0x937c53e42ca50e6!2s46%20Mara-ro%20101beon-gil%2C%20Daejeong-eup%2C%20Seogwipo%2C%20Jeju-do!5e0!3m2!1sen!2skr!4v1715005945473!5m2!1sen!2skr"
 									width="600" height="450" style="border: 0;" allowfullscreen=""
