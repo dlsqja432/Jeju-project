@@ -387,7 +387,7 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>장소명</strong> : 애월 탐라스테이호텔 제주<br> <strong>주소</strong> : 제주특별자치도
-									 제주시 애월읍 애월해안로 881<br> <strong>링크</strong> : http://tamnastay.com/
+									 제주시 애월읍 애월해안로 881<br> <strong>링크 : <a href= http://tamnastay.com/> http://tamnastay.com/</strong></a>
 									<br> <strong>전화번호</strong> : 064-742-8848
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal1">더보기</button> <!-- The Modal -->
