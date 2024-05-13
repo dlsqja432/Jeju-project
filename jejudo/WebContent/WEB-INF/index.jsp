@@ -15,90 +15,45 @@
 .page { clear:both; width:1200px; min-height:100vh; margin:0 auto; margin-top:20px;}
 .page::after { content: ""; display: block; width: 100%; clear: both; }
 .page_title { text-align: center; padding-top: 2em; padding-bottom: 0.5em; }
-#page1, #page2 { background-color:#ececec; min-height:calc(100vh - 320px); }
+#page1, #page2 { background-color:#f1f3f5; min-height:calc(100vh - 320px); }
 #page2 { margin-bottom: 10px;  }
+
 .recommend { width:450px; height:500px; 
-    padding:15px; margin:40px 60px; box-shadow:0px 0px 40px #666;
+    padding:15px; margin:40px 75px; box-shadow:0px 0px 40px #666;
     float:left; border-bottom-right-radius: 80px; position: relative;}
 .recommend p { text-align: center; font-size: 20px; font-weight: bold; }
-.recommend .div_btn { text-align: right; padding-top: 20px; padding-right: 40px; }
+.recommend .div_btn { text-align: right; padding-right: 40px; }
 .re_wrap { width:100%; clear:both; }	
 .re_wrap:after { content:""; display: block; width:100%; clear:both; }
 .subtitle { text-align:center; z-index:3}
 .pos_box article { width:80px; height: 80px;
         text-align: center; border-radius:50px 50px 0px 50px; position:absolute; }
-article.art1 { background-color:#ffff9c; top:-15px; left:150px; z-index:2; filter:opacity(60%);} 
-article.art2 { background-color:#afebff; top:-15px; right:-360px; z-index:2; filter:opacity(60%);} 
+article.art1 { background-color:#ffff9c; top:-10px; left:110px; z-index:2; filter:opacity(60%);} 
+article.art2 { background-color:#afebff; top:-10px; right:-338px; z-index:2; filter:opacity(60%);} 
 .img_item { display:block; width:400px; height:auto; margin:30px auto;}
 
 .tb_wrap { clear:both; width: 1200px; margin: 10px auto; padding-bottom: 20px; 
-    margin-bottom: 20px; }
+    margin-bottom: 20px; position:relative; }
 .tb_wrap:after { content:""; display:block; width: 100%; clear:both; }
 .table { display:table; border-collapse: collapse; width:960px; 
     margin:10px auto; }
 .table tr { display:table-row; }
 .table td, .table th { display:table-cell; font-size:16px; }
-.table td { line-height: 32px; border-bottom:1px solid #333; }
+.table td { line-height: 24px; border-bottom:1px solid #333; }
 .table td:first-child, .table td:last-child { text-align:center; }
-.table th { line-height: 36px; background-color:#333; color:#fff; }
-.table td:nth-child(2) { width:800px; }
-.table a.n_tit { display:block; width: 760px; padding: 0 20px; 
+.table th { line-height: 24px; background-color:#ccc; color:#fff; }
+.table td:first-child { width:80px; }
+.table td:nth-child(2) { width:700px; }
+.table td:last-child { width:280px; }
+.table th:nth-child(2) { padding-left: 37px; }
+.table th:last-child { padding-left: 40px; }
+.table a.n_tit { display:block; width: 660px; padding: 0 20px; 
     white-space:nowrap; text-overflow: ellipsis; overflow:hidden; 
     font-weight: bold; }
 .table a.n_tit:hover { text-decoration: underline; color:deepskyblue; }
+.plus_btn { width:960px; margin:20px auto; text-align:right; }
 
-.grid { clear: both; width: 1125px; margin: 0 auto; height: auto; padding-bottom: 100px; }
-.grid li .box { width: 100%; height: 120px; background-color: #333;
-    color: #fff; text-align: center; line-height: 120px; }
-[class^=col] { float: left; margin-right: 15px; margin-top: 15px; }
-[class^=col].last { margin-right: 0; }
-.col1 { width: 80px; }
-.col2 { width: 175px; }
-.col3 { width: 270px; }
-.col4 { width: 365px; }
-.col5 { width: 460px; }
-.col6 { width: 555px; }
-.col7 { width: 650px; }
-.col8 { width: 745px; }
-.col9 { width: 840px; }
-.col10 { width: 935px; }
-.col11 { width: 1030px; }
-.col12 { width: 1125px; }
-
-.grid2 { clear: both; width: 100%; margin: 0 auto; padding-bottom: 100px; }
-.grid2 li .box { width: 100%; height: 120px; background-color: #333; 
-    color: #fff; text-align: center; line-height: 120px;}
-[class^=can] { float: left; margin-right: 2%; margin-top: 2%; }
-[class^=can].last { margin-right: 0; }
-.can1 { width: 6.5%; }
-.can2 { width: 15%; }
-.can3 { width: 23.5%; }
-.can4 { width: 32%; }
-.can5 { width: 40.5%; }
-.can6 { width: 49%; }
-.can7 { width: 57.5%; }
-.can8 { width: 66%; }
-.can9 { width: 74.5%; }
-.can10 { width: 83%;    }
-.can11 { width: 91.5%; }
-.can12 { width: 100%; }
-
-.grid3 { position: relative; width: 1090px; margin: 0; padding-bottom: 100px; 
-    height: 520px;}
-.grid3 li { box-sizing: border-box; position: absolute; z-index: 5; 
-    border-radius: 20px;}
-.grid3 li .box { width: 100%; height: 100%; background-color: #333;
-    color: #fff; text-align: center; line-height: 160px; font-size: 32px; }
-.box1 { width: 500px; height: 240px; }
-.box2 { width: 182px; height: 190px; }
-#item1 { top: 30px; left: 30px; }
-#item2 { top: 90px; right: 30px; }
-#item3 { bottom: 130px; left: 30px; }
-#item4 { bottom: 130px; left: 242px; }
-#item5 { bottom: 70px; left: 454px; }
-#item6 { bottom: 70px; left: 666px; }
-#item7 { bottom: 70px; left: 878px; }
-
+#page3 {background-color:#f1f3f5; min-height: calc(100vh - 700px); margin-bottom:20px; }
 .icon_lst { clear: both; width: 1200px; margin: 0 auto; }
 .icon_lst li { float: left; width: 110px; margin: 20px; text-align: center; }
 .icon_lst li a { clear: #333; }
@@ -114,14 +69,32 @@ article.art2 { background-color:#afebff; top:-15px; right:-360px; z-index:2; fil
 <%@ include file="/header.jsp" %>
 <main id="contents" class="clr-fix">
 	<figure id="vs">
-	    <!--
-	   <ul>
-	       <li class="item1"><img src="images/vs4.png" alt="배너1"></li>
-	       <li class="item2"><img src="images/vs5.png" alt="배너2"></li>
-	       <li class="item3"><img src="images/vs6.png" alt="배너3"></li>
-	   </ul>
-	   -->
-        <img src="images/vs4.png" alt="배너1">
+	   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="${hpath }/images/main1.jpg" alt="First slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="${hpath }/images/main2.jpg" alt="Second slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="${hpath }/images/main3.png" alt="Third slide">
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
     </figure>
     <section id="page1" class="page">
         <div class="re_wrap">	
@@ -130,22 +103,20 @@ article.art2 { background-color:#afebff; top:-15px; right:-360px; z-index:2; fil
                     <article class="art1"></article>
                     <article class="art2"></article>
                 </div>
-                <h2 class="subtitle"><strong>제주의 축제</strong></h2>
-                <img class="img_item" src="images/hanok.jpg" alt="한옥사진">
-                <p>부평 문화의 거리에서 다양한 축제를 즐겨보세요!</p>
+                <h2 class="subtitle"><strong>제주의 문화재</strong></h2>
+                <img class="img_item" src="images/arti1.jpg" alt="">
                 <div class="div_btn">
-                    <a href="#">
+                    <a href="${hpath }/tour/artifacts.jsp">
                         <button type="button" class="btns">더보기</button>
                     </a>
                 </div>
             </div>
             <div class="recommend" id="recommend2">
-                <h2 class="subtitle"><strong>맛집 소개</strong></h2>
-                <img class="img_item" src="images/udo1.jpg" alt="한옥사진">
-                <p>제주의 맛집을 소개합니다!</p>
+                <h2 class="subtitle"><strong>제주의 관광지</strong></h2>
+                <img class="img_item" src="images/arti2.png" alt="">
                 <div class="div_btn">
-                    <a href="#">
-                        <button type="button" class="btns">더보기</button>
+                    <a href="${hpath }/tour/tour.jsp">
+                        <button type="button" class="btns_blue">더보기</button>
                     </a>
                 </div>
             </div>
@@ -168,7 +139,11 @@ article.art2 { background-color:#afebff; top:-15px; right:-360px; z-index:2; fil
                 			<tr>
 		                        <td>${dto.no }</td>
 		                        <td><a href="" class="n_tit">${dto.title }</a></td>
-		                        <td>${dto.resdate }</td>
+		                        <td>
+			                        <fmt:parseDate value="${dto.resdate }" var="res" pattern="yyyy-MM-dd HH:mm:ss" />
+							 		<fmt:formatDate value="${res }" var="resdate" pattern="yyyy년 MM월 dd일" />
+							 		${resdate }
+		                        </td>
 		                    </tr>
                 		</c:forEach>
                 	</c:if>
@@ -179,179 +154,64 @@ article.art2 { background-color:#afebff; top:-15px; right:-360px; z-index:2; fil
                 	</c:if>
                 </tbody>
             </table>
-        </div>
-    </section>
-    <section class="page" id="page6">
-        <h2 class="page_title">아이콘 목록</h2>
-        <div class="tb_wrap">
-            <ul class="icon_lst">
-                <li>
-                    <a href="">
-                        <div class="icon_fr"><img src="boxIcon1.png" alt="아이콘1"></div>
-                        <h3 class="icon_tit">아이콘 제목</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <div class="icon_fr"><img src="boxIcon2.png" alt="아이콘2"></div>
-                        <h3 class="icon_tit">아이콘 제목</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <div class="icon_fr"><img src="boxIcon3.png" alt="아이콘3"></div>
-                        <h3 class="icon_tit">아이콘 제목</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <div class="icon_fr"><img src="boxIcon4.png" alt="아이콘4"></div>
-                        <h3 class="icon_tit">아이콘 제목</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <div class="icon_fr"><img src="boxIcon5.png" alt="아이콘5"></div>
-                        <h3 class="icon_tit">아이콘 제목</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <div class="icon_fr"><img src="boxIcon6.png" alt="아이콘6"></div>
-                        <h3 class="icon_tit">아이콘 제목</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <div class="icon_fr"><img src="boxIcon7.png" alt="아이콘7"></div>
-                        <h3 class="icon_tit">아이콘 제목</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <div class="icon_fr"><img src="boxIcon8.png" alt="아이콘8"></div>
-                        <h3 class="icon_tit">오시는 길</h3>
-                    </a>
-                </li>
-            </ul>
+            <div class="plus_btn">
+            	<a href="${hpath }/NotiList.do">
+            		<button type="button" class="btns_blue">더보기</button>
+            	</a>
+            </div>
         </div>
     </section>
     <section class="page" id="page3">
-        <h2 class="page_title">정적 그리드</h2>
+        <h2 class="page_title">바로 가기</h2>
         <div class="tb_wrap">
-            <ul class="grid clr-fix">
-                <li class="col4">
-                    <div class="box">col4</div>
+            <ul class="icon_lst">
+                <li>
+                    <a href="${hpath }/information/traffic.jsp">
+                        <div class="icon_fr"><img src="${hpath }/images/boxIcon1.png" alt="아이콘1"></div>
+                        <h3 class="icon_tit">교통편</h3>
+                    </a>
                 </li>
-                <li class="col4">
-                    <div class="box">col4</div>
+                <li>
+                    <a href="${hpath }/information/food.jsp">
+                        <div class="icon_fr"><img src="${hpath }/images/boxIcon2.png" alt="아이콘2"></div>
+                        <h3 class="icon_tit">음식점</h3>
+                    </a>
                 </li>
-                <li class="col4 last">
-                    <div class="box">col4</div>
+                <li>
+                    <a href="${hpath }/information/hotel.jsp">
+                        <div class="icon_fr"><img src="${hpath }/images/boxIcon3.png" alt="아이콘3"></div>
+                        <h3 class="icon_tit">숙박시설</h3>
+                    </a>
                 </li>
-                <li class="col3">
-                    <div class="box">col3</div>
+                <li>
+                    <a href="${hpath }/tour/tour.jsp">
+                        <div class="icon_fr"><img src="${hpath }/images/boxIcon4.png" alt="아이콘4"></div>
+                        <h3 class="icon_tit">관광지</h3>
+                    </a>
                 </li>
-                <li class="col3">
-                    <div class="box">col3</div>
+                <li>
+                    <a href="${hpath }/tour/artifacts.jsp">
+                        <div class="icon_fr"><img src="${hpath }/images/boxIcon5.png" alt="아이콘5"></div>
+                        <h3 class="icon_tit">문화재</h3>
+                    </a>
                 </li>
-                <li class="col3">
-                    <div class="box">col3</div>
+                <li>
+                    <a href="${hpath }/tour/tourCourse.jsp">
+                        <div class="icon_fr"><img src="${hpath }/images/boxIcon6.png" alt="아이콘6"></div>
+                        <h3 class="icon_tit">추천 여행 코스</h3>
+                    </a>
                 </li>
-                <li class="col3 last">
-                    <div class="box">col3</div>
+                <li>
+                    <a href="${hpath }/NotiList.do">
+                        <div class="icon_fr"><img src="${hpath }/images/boxIcon7.png" alt="아이콘7"></div>
+                        <h3 class="icon_tit">공지사항</h3>
+                    </a>
                 </li>
-                <li class="col5">
-                    <div class="box">col5</div>
-                </li>
-                <li class="col3">
-                    <div class="box">col3</div>
-                </li>
-                <li class="col4 last">
-                    <div class="box">col4</div>
-                </li>
-                <li class="col6">
-                    <div class="box">col6</div>
-                </li>
-                <li class="col6 last">
-                    <div class="box">col6</div>
-                </li>
-                <li class="col12">
-                    <div class="box">col12</div>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <section class="page" id="page4">
-        <h2 class="page_title">동적 그리드</h2>
-        <div class="tb_wrap">
-            <ul class="grid2 clr-fix">
-                <li class="can4">
-                    <div class="box">col4</div>
-                </li>
-                <li class="can4">
-                    <div class="box">col4</div>
-                </li>
-                <li class="can4 last">
-                    <div class="box">col4</div>
-                </li>
-                <li class="can3">
-                    <div class="box">col3</div>
-                </li>
-                <li class="can3">
-                    <div class="box">col3</div>
-                </li>
-                <li class="can3">
-                    <div class="box">col3</div>
-                </li>
-                <li class="can3 last">
-                    <div class="box">col3</div>
-                </li>
-                <li class="can5">
-                    <div class="box">col5</div>
-                </li>
-                <li class="can3">
-                    <div class="box">col3</div>
-                </li>
-                <li class="can4 last">
-                    <div class="box">col4</div>
-                </li>
-                <li class="can6">
-                    <div class="box">col6</div>
-                </li>
-                <li class="can6 last">
-                    <div class="box">col6</div>
-                </li>
-                <li class="can12">
-                    <div class="box">col12</div>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <section class="page" id="page5">
-        <h2 class="page_title">절대좌표 그리드</h2>
-        <div class="tb_wrap">
-            <ul class="grid3 clr-fix">
-                <li id="item1" class="box1">
-                    <div class="box">item1</div>
-                </li>
-                <li id="item2" class="box1">
-                    <div class="box">item2</div>
-                </li>
-                <li id="item3" class="box2">
-                    <div class="box">item3</div>
-                </li>
-                <li id="item4" class="box2">
-                    <div class="box">item4</div>
-                </li>
-                <li id="item5" class="box2">
-                    <div class="box">item5</div>
-                </li>
-                <li id="item6" class="box2">
-                    <div class="box">item6</div>
-                </li>
-                <li id="item7" class="box2">
-                    <div class="box">item7</div>
+                <li>
+                    <a href="${hpath }/intro/map.jsp">
+                        <div class="icon_fr"><img src="${hpath }/images/boxIcon8.png" alt="아이콘8"></div>
+                        <h3 class="icon_tit">오시는 길</h3>
+                    </a>
                 </li>
             </ul>
         </div>

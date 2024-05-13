@@ -45,6 +45,7 @@ textarea { font-size:16px;  border-radius:6px; border-style: none; outline: none
 .table #td_title { font-weight:bold; }
 .table #tr_content { height:450px; }
 .table #th_content { line-height:450px; }
+#btnred { width:60px; }
 .btn-group { margin-left:40px; width:600px; }
 
 .table2 { width:900px; margin:10px auto; }
@@ -142,7 +143,9 @@ textarea { font-size:16px;  border-radius:6px; border-style: none; outline: none
 											<td id="coment_content">${dto.content }<br><br>${dto.resdate }</td>
 											<td id="coment_btn">
 												<c:if test="${sid.equals(dto.aid) || sid.equals('admin') }">
-													<a href="${path0 }/DelComent.do?cno=${dto.cno }&no=${board.no }" class="btns_red">삭제</a>
+													<a href="${path0 }/DelComent.do?cno=${dto.cno }&no=${board.no }">
+														<button type="button" class="btns_red" id="btnred">삭제</button>
+													</a>
 												</c:if>
 											</td>
 										</tr>
