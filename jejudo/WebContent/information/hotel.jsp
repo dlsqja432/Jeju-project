@@ -411,7 +411,7 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>장소명</strong> : 제주 시내 엠버호텔<br> <strong>주소</strong> :
-									제주 제주시 삼무로 12<br> <strong>링크</strong> : http://www.amberjeju.com/view/viewLink.do?page=hotelbaojen/KOR/index/index
+									제주 제주시 삼무로 12<br> <strong>링크 : <a href=http://www.amberjeju.com>http://www.amberjeju.com</strong></a>
 									<br> <strong>전화번호</strong> : 064-745-7458
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal2">더보기</button> <!-- The Modal -->
@@ -436,7 +436,7 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>장소명</strong> : 서귀포 JnB가족호텔<br> <strong>주소</strong> : 제주특별자치도
-									서귀포시 토평남로30번길 10-12<br> <strong>링크</strong> : http://www.jnbhotel.com
+									서귀포시 토평남로30번길 10-12<br> <strong>링크 : <a href=http://www.jnbhotel.com>http://www.jnbhotel.com</strong></a>
 									 <br> 일요일 07:00 ~ 오후 9:00<br> <strong>전화번호</strong>
 									: 064-738-7600
 								</p> <!-- Trigger/Open The Modal -->
@@ -462,7 +462,7 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>장소명</strong> : 성산 오션스퀘어 리조트<br> <strong>주소</strong> : 제주특별자치도
-									서귀포시 성산읍 환해장성로 667 384<br> <strong>링크</strong> : https://naver.me/xQONU3T9
+									서귀포시 성산읍 환해장성로 667 384<br> <strong>링크 : <a href=http://www.oceansquare.co.kr>http://www.oceansquare.co.kr</strong></a>
 									<br> <strong>전화번호</strong> : 064-717-7300
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal4">더보기</button> <!-- The Modal -->
@@ -486,7 +486,7 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>장소명</strong> : 바다에서잘래펜션<br> <strong>주소</strong> :
-									제주시 한림읍 협재1길 33<br> <strong>링크</strong> : https://naver.me/xWNIaIVY
+									제주시 한림읍 협재1길 33<br> <strong>링크 : <a href=http://www.sleepinthesea.com/>http://www.sleepinthesea.com/</strong></a>
 									<br> <strong>전화번호</strong> : 064-796-7250
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal5">더보기</button> <!-- The Modal -->
@@ -510,7 +510,7 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>가게명</strong> : 애월더선셋리조트<br> <strong>주소</strong> :
-									제주시 애월읍 일주서로 6111 (곽지리1381) <strong>영업 시간</strong> : https://naver.me/GvdeQJqQ<br>
+									제주시 애월읍 일주서로 6111 (곽지리1381) <strong>링크 : <a href=https://www.instagram.com/aewolthesunset_official>https://www.instagram.com/aewolthesunset_official</strong></a>
 									<strong>전화번호</strong> : 064-799-7177
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal6">더보기</button> <!-- The Modal -->
@@ -534,7 +534,7 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>가게명</strong> : 히든클리프호텔&네이쳐<br> <strong>주소</strong> : 제주특별자치도
-									서귀포시 예래해안로 542 <strong>링크</strong> : https://naver.me/FFvabb3x<br>
+									서귀포시 예래해안로 542 <strong>링크 : <a href=http://www.hiddencliff.kr>http://www.hiddencliff.kr/</strong></a>
 									<strong>전화번호</strong> : 064-752-7777
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal7">더보기</button> <!-- The Modal -->
@@ -558,7 +558,7 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>가게명</strong> : 제주신라호텔<br> <strong>주소</strong> : 제주
-									서귀포시 중문관광로72번길 75 <strong>링크</strong> : http://www.shilla.net/jeju/<br>
+									서귀포시 중문관광로72번길 75 <strong>링크 : <a href=http://www.shilla.net/jeju>http://www.shilla.net/jeju</strong></a>
 									<strong>전화번호</strong> : 064-735-5114
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal8">더보기</button> <!-- The Modal -->
