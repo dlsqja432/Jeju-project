@@ -1,20 +1,32 @@
 # 프로젝트 개발 보고서(Project Development Report)
 
 ## 1. 프로젝트 개요(Project Outline)
-    제주도에 관련된 다양한 정보를 제공하고 사용자들에게 제주도 여행을 계획하고 정보를 얻을 수 있는 웹 애플리케이션을 자바 기반의 웹 애플리케이션으로 개발하게 되었다.
+    제주도에 관련된 다양한 정보를 제공하고 사용자들에게 제주도 여행을 계획하고 
+	정보를 얻을 수 있는 웹 애플리케이션을 자바 기반의 웹 애플리케이션으로 개발하게 되었다.
 
-    A web application that provides various information related to Jeju Island and allows users to plan and obtain information about Jeju Island has been developed as a Java-based web application.
+    A web application that provides various information related to Jeju Island 
+	and allows users to plan and obtain information about 
+	Jeju Island has been developed as a Java-based web application.
 
 <br><br><Br>
 
 ## 2. 프로젝트 목적(Project Purpose)
-    가산동의 유래와 동네의 특징, 그리고, 곳곳에 산재되어 있는 각 종 기관과 
-    가산동에 위치한 가산디지털단지의 빌딩, 맛집 등을 소개하고, 가산동의 소식을 전달하며,
-    커뮤니티를 이루고, 정보를 공유할 목적으로 개발하게 되었다.
+	
+    제주도의 아름다운 자연 풍경, 특산물, 문화 유산 등을 소개함으로써 제주도를 홍보한다. 
+	사용자들에게 제주도의 매력을 알리고 관심을 유발하여 제주도를 방문하도록 한다. 
+	제주도를 방문하는 여행객들에게 다양한 여행 정보를 제공하여 여행 계획을 돕는다. 
+	관광명소, 문화행사, 먹거리, 숙박시설 등에 대한 정보를 제공하여 
+	사용자가 자신에게 맞는 여행 일정을 세우도록 돕는다.
+	여행에 관심 있는 사용자들끼리 소통하고 정보를 공유할 수 있는 커뮤니티를 형성한다. 
+	사용자들이 경험을 공유하고 질문을 하며 서로 도와주는 공간을 제공한다.
 
-    The origins of Gasan-dong, the characteristics of the neighborhood, and various institutions and institutions scattered throughout the area.
-    Introducing the buildings and restaurants of the Gasan Digital Complex located in Gasan-dong and delivering news about Gasan-dong.
-    It was developed for the purpose of forming a community and sharing information.
+    It promotes Jeju Island by introducing its beautiful natural scenery, specialties, and cultural heritage.
+	Let users know the charm of Jeju Island and induce interest in it to visit Jeju Island.
+	Various travel information is provided to travelers visiting Jeju Island to help them plan their trip.
+	By providing information on tourist attractions, cultural events, food, and accommodation facilities
+	It helps users set a travel schedule that suits them.
+	It forms a community where users interested in travel can communicate and share information.
+	It provides a space for users to share their experiences, ask questions, and help each other.
 
 <br><br><br>
 
