@@ -558,8 +558,8 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>가게명</strong> : 제주신라호텔<br> <strong>주소</strong> : 제주
-									서귀포시 중문관광로72번길 75 <strong>링크 : <a href=http://www.shilla.net/jeju>http://www.shilla.net/jeju</strong></a>
-									<strong>전화번호</strong> : 064-735-5114
+									서귀포시 중문관광로72번길 75<br> <strong>링크 : <a href=http://www.shilla.net/jeju>http://www.shilla.net/jeju</strong></a>
+									<br><strong>전화번호</strong> : 064-735-5114
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal8">더보기</button> <!-- The Modal -->
 								<pattern id="myModal8" class="modal"> <!-- Modal content -->
@@ -582,7 +582,7 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>가게명</strong> : WE호텔 제주<br> <strong>주소</strong>
-									: 제주 서귀포시 1100로 453-95 WE호텔 제주 <strong>링크</strong> : https://wehotel.co.kr/
+									: 제주 서귀포시 1100로 453-95 WE호텔 제주 <br><strong>링크 : <a href=https://wehotel.co.kr>https://wehotel.co.kr</strong></a>
 									<br> <strong>전화번호</strong> : 064-730-1200
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal9">더보기</button> <!-- The Modal -->
@@ -606,8 +606,8 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>가게명</strong> : 메리어트관 제주신화월드 호텔앤리조트<br> <strong>주소</strong> : 제주
-									서귀포시 안덕면 신화역사로304번길 38  <strong>링크</strong> : https://jejushinhwaworld.modoo.at/?link=2vq7wy88<br>
-									<strong>전화번호</strong> : 1670-8800
+									서귀포시 안덕면 신화역사로304번길 38  <br><strong>링크 : <a href=https://jejushinhwaworld.modoo.at>https://jejushinhwaworld.modoo.at</strong></a>
+									<br><strong>전화번호</strong> : 1670-8800
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal10">더보기</button> <!-- The Modal -->
 								<pattern id="myModal10" class="modal"> <!-- Modal content -->
@@ -630,8 +630,8 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>가게명</strong> : 베니키아호텔제주<br> <strong>주소</strong> : 제주
-									제주시 애월읍 애월해안로 554-6 <strong>링크</strong> : http://www.jejubenikea.com/<br>
-									<strong>전화번호</strong> : 064-799-9977
+									제주시 애월읍 애월해안로 554-6  <br><strong>링크 : <a href=ttp://www.jejubenikea.com>ttp://www.jejubenikea.com</strong></a>
+									<br><strong>전화번호</strong> : 064-799-9977
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal11">더보기</button> <!-- The Modal -->
 								<pattern id="myModal11" class="modal"> <!-- Modal content -->
@@ -654,7 +654,7 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>가게명</strong> : 베드라디오 도두봉<br> <strong>주소</strong> :
-									제주 제주시 서해안로 204<strong>링크</strong> : http://www.instagram.com/bedradio_ddb
+									제주 제주시 서해안로 204 <br><strong>링크 : <a href=instagram.com/bedradio_ddb>https://www.instagram.com/bedradio_ddb</strong></a>
 									<br> <strong>전화번호</strong> : 0507-1349-5054
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal12">더보기</button> <!-- The Modal -->
@@ -678,7 +678,7 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>가게명</strong> : 샐리스 제주호텔<br> <strong>주소</strong> :
-									제주 제주시 애월읍 고내로 46 <strong>링크</strong> : http://www.sallysjeju.com/
+									제주 제주시 애월읍 고내로 46 <br><strong>링크 : <a href=http://www.sallysjeju.com/>http://www.sallysjeju.com/</strong></a>
 									<br> <strong>전화번호</strong> : 064-712-0025
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal13">더보기</button> <!-- The Modal -->
@@ -702,7 +702,7 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>가게명</strong> : 호텔 리젠트마린 제주<br> <strong>주소</strong> :
-									제주 제주시 서부두2길 20 <strong>링크</strong> : http://hotelrmblue.com/
+									제주 제주시 서부두2길 20 <br><strong>링크 : <a href=http://hotelrmblue.com/>http://hotelrmblue.com/</strong></a>
 									<br> <strong>전화번호</strong> : 02-777-5080
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal14">더보기</button> <!-- The Modal -->
@@ -726,7 +726,7 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>가게명</strong> : 그라벨호텔<br> <strong>주소</strong> :
-									제주 제주시 일주서로 7316 <strong>링크</strong> : https://grabelhotel.com/
+									제주 제주시 일주서로 7316 <br><strong>링크 : <a href=https://grabelhotel.com>https://grabelhotel.com</strong></a>
 									<br> <strong>전화번호</strong> : 064-740-8000
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal15">더보기</button> <!-- The Modal -->
@@ -750,7 +750,7 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>가게명</strong> : 올레리조트<br> <strong>주소</strong> :
-									제주 제주시 애월읍 애월해안로 454-12 <strong>링크</strong> : https://www.olleresort.co.kr
+									제주 제주시 애월읍 애월해안로 454-12  <br><strong>링크 : <a href=https://www.olleresort.co.kr>https://www.olleresort.co.kr</strong></a>
 									<br> <strong>전화번호</strong> : 064-805-7711
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal16">더보기</button> <!-- The Modal -->
@@ -774,7 +774,7 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>가게명</strong> : 저바다에누워<br> <strong>주소</strong> :
-									제주 제주시 한경면 판조로 3-5 <strong>링크</strong> : http://저바다에누워.com/
+									제주 제주시 한경면 판조로 3-5 <br><strong>링크 : <a href=http://저바다에누워.com/>hhttp://저바다에누워.com/</strong></a>
 									<br> <strong>전화번호</strong> : 0507-1440-7904
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal17">더보기</button> <!-- The Modal -->
@@ -798,7 +798,7 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>가게명</strong> : 브라운캐빈<br> <strong>주소</strong> :
-									제주 제주시 애월읍 소길남길 190-40 <strong>링크</strong> : http://www.browncabin.co.kr/
+									제주 제주시 애월읍 소길남길 190-40 <br><strong>링크 : <a href=http://www.browncabin.co.kr/>http://www.browncabin.co.kr</strong></a>
 									<br> <strong>전화번호</strong> : 010-2011-7937
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal18">더보기</button> <!-- The Modal -->
@@ -822,7 +822,7 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>가게명</strong> : 블루하와이 호텔<br> <strong>주소</strong> :
-									제주 제주시 한림읍 한림로 75 <strong>링크</strong> : https://bluehawaii2.modoo.at
+									제주 제주시 한림읍 한림로 75 <br><strong>링크 : <a href=https://bluehawaii2.modoo.at>https://bluehawaii2.modoo.at</strong></a>
 									<br> <strong>전화번호</strong> : 064-773-0800
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal19">더보기</button> <!-- The Modal -->
@@ -846,8 +846,8 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>가게명</strong> : 아쿠아뷰티크<br> <strong>주소</strong> :
-									제주 제주시 구좌읍 해맞이해안로 522 <strong>링크</strong> : http://www.aquabeautique.com/
-									~ 오후 9:40<br> <strong>전화번호</strong> : 0507-1441-1026
+									제주 제주시 구좌읍 해맞이해안로 522 <br><strong>링크 : <a href=http://www.aquabeautique.com>http://www.aquabeautique.com</strong></a>
+									<br> <strong>전화번호</strong> : 0507-1441-1026
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal20">더보기</button> <!-- The Modal -->
 								<pattern id="myModal20" class="modal"> <!-- Modal content -->
