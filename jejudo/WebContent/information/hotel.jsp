@@ -510,7 +510,7 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>가게명</strong> : 애월더선셋리조트<br> <strong>주소</strong> :
-									제주시 애월읍 일주서로 6111 (곽지리1381)<br> <strong>링크 : <a href=instagram.com/aewolthesunset_official>instagram.com/aewolthesunset_official</strong></a>
+									제주시 애월읍 일주서로 6111 (곽지리1381)<br> <strong>링크 : <a href=www.instagram.com/aewolthesunset_official>instagram.com/aewolthesunset_official</strong></a>
 									<br><strong>전화번호</strong> : 064-799-7177
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal6">더보기</button> <!-- The Modal -->
@@ -654,7 +654,7 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>가게명</strong> : 베드라디오 도두봉<br> <strong>주소</strong> :
-									제주 제주시 서해안로 204 <br><strong>링크 : <a href=instagram.com/bedradio_ddb>https://www.instagram.com/bedradio_ddb</strong></a>
+									제주 제주시 서해안로 204 <br><strong>링크 : <a href=www.instagram.com/bedradio_ddb>https://www.instagram.com/bedradio_ddb</strong></a>
 									<br> <strong>전화번호</strong> : 0507-1349-5054
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal12">더보기</button> <!-- The Modal -->
