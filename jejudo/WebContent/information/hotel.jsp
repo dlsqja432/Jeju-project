@@ -510,8 +510,8 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>가게명</strong> : 애월더선셋리조트<br> <strong>주소</strong> :
-									제주시 애월읍 일주서로 6111 (곽지리1381) <strong>링크 : <a href=https://www.instagram.com/aewolthesunset_official>https://www.instagram.com/aewolthesunset_official</strong></a>
-									<strong>전화번호</strong> : 064-799-7177
+									제주시 애월읍 일주서로 6111 (곽지리1381)<br> <strong>링크 : <a href=instagram.com/aewolthesunset_official>instagram.com/aewolthesunset_official</strong></a>
+									<br><strong>전화번호</strong> : 064-799-7177
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal6">더보기</button> <!-- The Modal -->
 								<pattern id="myModal6" class="modal"> <!-- Modal content -->
@@ -534,8 +534,8 @@ button:hover::before {
 							<td>
 								<p>
 									<strong>가게명</strong> : 히든클리프호텔&네이쳐<br> <strong>주소</strong> : 제주특별자치도
-									서귀포시 예래해안로 542 <strong>링크 : <a href=http://www.hiddencliff.kr>http://www.hiddencliff.kr/</strong></a>
-									<strong>전화번호</strong> : 064-752-7777
+									서귀포시 예래해안로 542 <br><strong>링크 : <a href=http://www.hiddencliff.kr>http://www.hiddencliff.kr/</strong></a>
+									<br><strong>전화번호</strong> : 064-752-7777
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal7">더보기</button> <!-- The Modal -->
 								<pattern id="myModal7" class="modal"> <!-- Modal content -->
