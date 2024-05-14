@@ -6,7 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>제주도 교통편</title>
+<title>제주도 교통편 안내</title>
 <link rel="stylesheet" href="${path0 }/css/common.css">
 <%@ include file="/head.jsp"%>
 <style>
@@ -198,10 +198,10 @@ th, td {
 				</ul>
 			</nav>
 			<div class="tb_wrap">
-				<h2 class="page_title" id="page_title1">음식점 안내</h2>
+				<h2 class="page_title" id="page_title1">교통편 안내</h2>
 				<ol class="breadcrumb">
 					<li><a href="main.html">Home</a></li>
-					<li><a href="#">Tour</a></li>
+					<li><a href="#">Information</a></li>
 					<li>교통편 안내</li>
 				</ol>
 				<h2 style="text-align: center;">제주도 공공버스 운행 현황</h2>

@@ -6,7 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+<title>제주도 숙박시설 안내</title>
 <!--<link rel="stylesheet" href="${path0 }/css/normalize2.css">  -->
 <link rel="stylesheet" href="${path0 }/css/common.css">
 <%@ include file="/head.jsp"%>

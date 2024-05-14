@@ -6,7 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>제주도 교통편</title>
+<title>제주도 공공기관 안내</title>
 <link rel="stylesheet" href="${path0 }/css/common.css">
 <%@ include file="/head.jsp"%>
 <style>
