@@ -360,10 +360,10 @@ button:hover::before {
 			<nav id="side_bar">
 				<ul>
 					<h3 id="side_bar_title">이용안내</h3>
-					<li><a href="">교통편 안내</a></li>
-					<li><a href="">공공기관 안내</a></li>
-					<li><a href="">음식점 안내</a></li>
-					<li><a href="">숙박시설 안내</a></li>
+					<li><a href="traffic.jsp">교통편 안내</a></li>
+					<li><a href="building.jsp">공공기관 안내</a></li>
+					<li><a href="food.jsp">음식점 안내</a></li>
+					<li><a href="hotel.jsp">숙박시설 안내</a></li>
 				</ul>
 			</nav>
 
@@ -372,7 +372,7 @@ button:hover::before {
 				<h2 class="page_title" id="page_title1">음식점 안내</h2>
 				<ol class="breadcrumb">
 					<li><a href="main.html">Home</a></li>
-					<li><a href="#">Tour</a></li>
+					<li><a href="#">Information</a></li>
 					<li>음식점 안내</li>
 				</ol>
 				<div id="search">

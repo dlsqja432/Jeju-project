@@ -126,7 +126,20 @@
 	border-radius: 8px;
 	border-style: none;
 }
+.tb_wrap {
+	width: 850px;
+	margin: 10px auto;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	float: left;
+}
 
+.tb_wrap:after {
+	content: "";
+	display: block;
+	width: 100%;
+	clear: both;
+}
 .table1 {
 	display: table;
 	width: 900px;
@@ -178,13 +191,19 @@ th, td {
 			<nav id="side_bar">
 				<ul>
 					<h3 id="side_bar_title">이용안내</h3>
-					<li><a href="">교통편 안내</a></li>
-					<li><a href="">공공기관 안내</a></li>
-					<li><a href="">음식점 안내</a></li>
-					<li><a href="">숙박시설 안내</a></li>
+					<li><a href="traffic.jsp">교통편 안내</a></li>
+					<li><a href="building.jsp">공공기관 안내</a></li>
+					<li><a href="food.jsp">음식점 안내</a></li>
+					<li><a href="hotel.jsp">숙박시설 안내</a></li>
 				</ul>
 			</nav>
-			<div name="main_table">
+			<div class="tb_wrap">
+				<h2 class="page_title" id="page_title1">음식점 안내</h2>
+				<ol class="breadcrumb">
+					<li><a href="main.html">Home</a></li>
+					<li><a href="#">Tour</a></li>
+					<li>교통편 안내</li>
+				</ol>
 				<h2 style="text-align: center;">제주도 공공버스 운행 현황</h2>
 				<table class="table1">
 					<thead>

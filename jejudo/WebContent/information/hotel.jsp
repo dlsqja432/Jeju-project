@@ -360,20 +360,20 @@ button:hover::before {
 			<nav id="side_bar">
 				<ul>
 					<h3 id="side_bar_title">이용안내</h3>
-					<li><a href="">교통편 안내</a></li>
-					<li><a href="">공공기관 안내</a></li>
-					<li><a href="">음식점 안내</a></li>
-					<li><a href="">숙박시설 안내</a></li>
+					<li><a href="traffic.jsp">교통편 안내</a></li>
+					<li><a href="building.jsp">공공기관 안내</a></li>
+					<li><a href="food.jsp">음식점 안내</a></li>
+					<li><a href="hotel.jsp">숙박시설 안내</a></li>
 				</ul>
 			</nav>
 
 
 			<div class="tb_wrap">
-				<h2 class="page_title" id="page_title1">음식점 안내</h2>
+				<h2 class="page_title" id="page_title1">숙박시설 안내</h2>
 				<ol class="breadcrumb">
 					<li><a href="main.html">Home</a></li>
-					<li><a href="#">Tour</a></li>
-					<li>음식점 안내</li>
+					<li><a href="#">Information</a></li>
+					<li>숙박시설 안내</li>
 				</ol>
 				<div id="search">
 					<input type="text" id="inp1" value="제목" readonly> <input
@@ -911,43 +911,8 @@ button:hover::before {
 		</section>
 	</main>
 
-	<footer id="ft" class="clr-fix">
-		<div class="ft_wrap">
-			<nav id="fnb">
-				<ul>
-					<li><a href="${hpath }/member/terms.jsp">회원약관</a></li>
-					<li><a href="${hpath }/member/policy.jsp">개인정보처리방침</a></li>
-				</ul>
-			</nav>
-			<div id="loc">
-				<select name="sel" id="sel" onchange="locate()">
-					<option value="">해당 관공서</option>
-					<option
-						value="https://jejumaeul.or.kr/list4/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=9281354&t=board">
-						부평주민센터</option>
-					<option
-						value="https://www.jjpolice.go.kr/dongbu/info/police/police8">부평파출소</option>
-					<option value="https://ijto.or.kr/korean/">부평관광공사</option>
-				</select>
-			</div>
-			<script>
-				function locate() {
-					var sel = document.getElementById("sel");
-					if (sel.value != "") {
-						window.open(sel.value);
-					}
-				}
-			</script>
-			<br>
-			<br>
-			<div id="copyright">
-				<p class="addr">[21354] 인천광역시 부평구 부평대로 168 (대표전화) ☎032-504-2114
-				</p>
-				<p class="copy">COPYRIGHT(C) INCHEON BUPYEONG INTRO. ALL RIGHTS
-					RESERVED.</p>
-			</div>
-		</div>
-	</footer>
+	<%@ include file="/footer.jsp"%>
+
 
 </body>
 
