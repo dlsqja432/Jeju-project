@@ -391,19 +391,19 @@ button:hover::before {
 									<br> <strong>전화번호</strong> : 064-742-8848
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal1">더보기</button> <!-- The Modal -->
-								<pattern id="myModal1" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal1" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2> 애월 탐라스테이호텔 제주</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>주소: 제주특별자치도 제주시 애월읍 애월해안로 881</p>
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d415.94458271072585!2d126.39121582662861!3d33.48689145798359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350cf127e75a2717%3A0x50e228a1091d34fa!2z7YOQ65287Iqk7YWM7J207Zi47YWU!5e0!3m2!1sko!2skr!4v1715526163761!5m2!1sko!2sk"
 									width="600" height="450" style="border: 0;" allowfullscreen=""
 									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
+								</div> <div class="modal-footer">
 								<h4>찾아오시는 길:</h4>
-								</pattern> </pattern> </pattern>
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
@@ -415,20 +415,20 @@ button:hover::before {
 									<br> <strong>전화번호</strong> : 064-745-7458
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal2">더보기</button> <!-- The Modal -->
-								<pattern id="myModal2" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal2" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>제주 시내 엠버호텔</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 
 								<p>주소: 제주 제주시 삼무로 12</p>
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1176.4314227344125!2d126.48735164801793!3d33.48965325673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350cfb05ad37527d%3A0x2fc431157b804339!2z7KCc7KO87Yq567OE7J6Q7LmY64-EIOygnOyjvOyLnCDsgrzrrLTroZwgMTI!5e0!3m2!1sko!2skr!4v1715526295257!5m2!1sko!2skm"
 									width="600" height="450" style="border: 0;" allowfullscreen=""
 									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
+								</div> <div class="modal-footer">
 								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
@@ -441,20 +441,20 @@ button:hover::before {
 									: 064-738-7600
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal3">더보기</button> <!-- The Modal -->
-								<pattern id="myModal3" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal3" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>서귀포 JnB가족호텔</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 
 								<p>주소: 제주특별자치도 서귀포시 토평남로30번길 10-12 83</p>
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d415.94458271072585!2d126.39121582662861!3d33.48689145798359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350cf127e75a2717%3A0x50e228a1091d34fa!2z7YOQ65287Iqk7YWM7J207Zi47YWU!5e0!3m2!1sko!2skr!4v1715526163761!5m2!1sko!2skr"
 									width="600" height="450" style="border: 0;" allowfullscreen=""
 									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
+								</div> <div class="modal-footer">
 								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
@@ -466,19 +466,19 @@ button:hover::before {
 									<br> <strong>전화번호</strong> : 064-717-7300
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal4">더보기</button> <!-- The Modal -->
-								<pattern id="myModal4" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal4" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>성산 오션스퀘어 리조트</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>주소: 제주특별자치도 서귀포시 성산읍 환해장성로 667 384</p>
 								<iframe 
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.3849607310153!2d126.90642037629739!3d33.413206651201754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350d1255afc2dfc7%3A0x6af7ca5c2f633182!2z7KCc7KO87Yq567OE7J6Q7LmY64-EIOyEnOq3gO2PrOyLnCDshLHsgrDsnY0g7ZmY7ZW07J6l7ISx66GcIDY2Nw!5e0!3m2!1sko!2skr!4v1715538958177!5m2!1sko!2skr" 
 									width="600" height="450" style="border:0;" allowfullscreen="" 
 									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
+								</div> <div class="modal-footer">
 								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
@@ -490,19 +490,19 @@ button:hover::before {
 									<br> <strong>전화번호</strong> : 064-796-7250
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal5">더보기</button> <!-- The Modal -->
-								<pattern id="myModal5" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal5" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>바다에서잘래펜션</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>주소: 제주시 한림읍 협재1길 33</p>
 								<iframe 
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1980.6072138703425!2d126.24316286898744!3d33.39792045965461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350c609254e83291%3A0x96dec35734605710!2z7KCc7KO87Yq567OE7J6Q7LmY64-EIOygnOyjvOyLnCDtlZzrprzsnY0g7ZiR7J6sMeq4uA!5e0!3m2!1sko!2skr!4v1715539063220!5m2!1sko!2skr" 
 									width="600" height="450" style="border:0;" allowfullscreen="" 
 									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
+								</div> <div class="modal-footer">
 								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
@@ -514,19 +514,19 @@ button:hover::before {
 									<br><strong>전화번호</strong> : 064-799-7177
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal6">더보기</button> <!-- The Modal -->
-								<pattern id="myModal6" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal6" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>애월더선셋리조트</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>주소: 제주시 애월읍 일주서로 6111 (곽지리1381)</p>
 								<iframe 
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2353.7863845588345!2d126.30813009731571!3d33.45564662055165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350cf5a7d5d4e57f%3A0xf332e6c400ae3acb!2z7KCc7KO87Yq567OE7J6Q7LmY64-EIOygnOyjvOyLnCDslaDsm5TsnY0g7J287KO87ISc66GcIDYxMTE!5e0!3m2!1sko!2skr!4v1715539225460!5m2!1sko!2skr" 
 									width="600" height="450" style="border:0;" allowfullscreen="" 
 	-								loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
+								</div> <div class="modal-footer">
 								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
@@ -538,19 +538,19 @@ button:hover::before {
 									<br><strong>전화번호</strong> : 064-752-7777
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal7">더보기</button> <!-- The Modal -->
-								<pattern id="myModal7" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal7" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>히든클리프호텔&네이쳐</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>주소: 제주특별자치도 서귀포시 예래해안로 542 221</p>
 								<iframe 
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1668.2164421011869!2d126.40082734139428!3d33.25515779341115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350c5adc973f66c5%3A0xd47a8efafcd86dce!2z7KCc7KO87Yq567OE7J6Q7LmY64-EIOyEnOq3gO2PrOyLnCDsmIjrnpjtlbTslYjroZwgNTQy!5e0!3m2!1sko!2skr!4v1715539315622!5m2!1sko!2skr" 
 									width="600" height="450" style="border:0;" allowfullscreen="" 
 									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
+								</div> <div class="modal-footer">
 								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
@@ -562,19 +562,19 @@ button:hover::before {
 									<br><strong>전화번호</strong> : 064-735-5114
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal8">더보기</button> <!-- The Modal -->
-								<pattern id="myModal8" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal8" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>제주신라호텔</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>주소: 제주 서귀포시 중문관광로72번길 75 38</p>
 								<iframe 
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3336.737965994359!2d126.40538037629236!3d33.247167559809874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350c5ac5f4e7b1cd%3A0x528394a28b7c58ee!2z7KCc7KO87Yq567OE7J6Q7LmY64-EIOyEnOq3gO2PrOyLnCDspJHrrLjqtIDqtJHroZw3MuuyiOq4uCA3NQ!5e0!3m2!1sko!2skr!4v1715539390173!5m2!1sko!2skr" 
 									width="600" height="450" style="border:0;" allowfullscreen="" 
 									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
+								</div> <div class="modal-footer">
 								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
@@ -586,19 +586,19 @@ button:hover::before {
 									<br> <strong>전화번호</strong> : 064-730-1200
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal9">더보기</button> <!-- The Modal -->
-								<pattern id="myModal9" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal9" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>WE호텔 제주</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>주소: 제주 서귀포시 1100로 453-95 WE호텔 제주</p>
 								<iframe 
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.2491465818707!2d126.44163367629358!3d33.2861443577926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350c50a253c1fb11%3A0xd4ad66deea67b8b3!2zV0XtmLjthZQg7KCc7KO8!5e0!3m2!1sko!2skr!4v1715539449950!5m2!1sko!2skr" 
 									width="600" height="450" style="border:0;" allowfullscreen="" 
 									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
+								</div> <div class="modal-footer">
 								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
@@ -610,19 +610,19 @@ button:hover::before {
 									<br><strong>전화번호</strong> : 1670-8800
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal10">더보기</button> <!-- The Modal -->
-								<pattern id="myModal10" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal10" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>메리어트관 제주신화월드 호텔앤리조트</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>주소: 제주 서귀포시 안덕면 신화역사로304번길 38 </p>
 								<iframe 
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.4448165330246!2d126.31486297629412!3d33.307184656702454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350c5c6678597ea5%3A0xb1d196e7be8f9428!2z7KCc7KO87Iug7ZmU7JuU65Oc!5e0!3m2!1sko!2skr!4v1715539570541!5m2!1sko!2skr" 
 									width="600" height="450" style="border:0;" allowfullscreen="" 
 									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
+								</div> <div class="modal-footer">
 								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
@@ -634,19 +634,19 @@ button:hover::before {
 									<br><strong>전화번호</strong> : 064-799-9977
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal11">더보기</button> <!-- The Modal -->
-								<pattern id="myModal11" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal11" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>베니키아호텔제주</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>주소: 제주 제주시 애월읍 애월해안로 554-6 67</p>
 								<iframe 
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.9080306112614!2d126.35983277629927!3d33.477745147845944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350cf6b0625b3507%3A0x7852a7480f2c96d4!2z67Kg64uI7YKk7JWEIO2YuO2FlCDsoJzso7w!5e0!3m2!1sko!2skr!4v1715539630948!5m2!1sko!2skr" 
 									width="600" height="450" style="border:0;" allowfullscreen="" 
 									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
+								</div> <div class="modal-footer">
 								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
@@ -658,19 +658,19 @@ button:hover::before {
 									<br> <strong>전화번호</strong> : 0507-1349-5054
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal12">더보기</button> <!-- The Modal -->
-								<pattern id="myModal12" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal12" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>베드라디오 도두봉</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>주소: 제주 제주시 서해안로 204</p>
 								<iframe 
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1663.400650104585!2d126.46851563887367!3d33.506546429830195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350cfae7cee228ab%3A0xe4c2c04d6d11b31d!2z7KCc7KO87Yq567OE7J6Q7LmY64-EIOygnOyjvOyLnCDshJztlbTslYjroZwgMjA0!5e0!3m2!1sko!2skr!4v1715539764679!5m2!1sko!2skr" 
 									width="600" height="450" style="border:0;" allowfullscreen="" 
 									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
+								</div> <div class="modal-footer">
 								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
@@ -682,19 +682,19 @@ button:hover::before {
 									<br> <strong>전화번호</strong> : 064-712-0025
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal13">더보기</button> <!-- The Modal -->
-								<pattern id="myModal13" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal13" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>샐리스 제주호텔</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>주소: 제주 제주시 애월읍 고내로 46</p>
 								<iframe 
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1664.2135968060318!2d126.34015148891116!3d33.46422703092725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350cf42506debd61%3A0xa6a3b5248b16e641!2z7IOQ66as7Iqk7KCc7KO87Zi47YWU!5e0!3m2!1sko!2skr!4v1715539827917!5m2!1sko!2skr" 
 									width="600" height="450" style="border:0;" allowfullscreen="" 
 									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
+								</div> <div class="modal-footer">
 								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
@@ -706,19 +706,19 @@ button:hover::before {
 									<br> <strong>전화번호</strong> : 02-777-5080
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal14">더보기</button> <!-- The Modal -->
-								<pattern id="myModal14" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal14" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>호텔 리젠트마린 제주</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>주소: 제주 제주시 서부두2길 20</p>
 								<iframe 
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d831.593968548716!2d126.52646389893413!3d33.51761179526846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350ce3575d137a91%3A0xfd26edab0188cdad!2z7Zi47YWUIOumrOygoO2KuOuniOumsCDsoJzso7w!5e0!3m2!1sko!2skr!4v1715539901436!5m2!1sko!2skr" 
 									width="600" height="450" style="border:0;" allowfullscreen="" 
 									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
+								</div> <div class="modal-footer">
 								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
@@ -730,19 +730,19 @@ button:hover::before {
 									<br> <strong>전화번호</strong> : 064-740-8000
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal15">더보기</button> <!-- The Modal -->
-								<pattern id="myModal15" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal15" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>그라벨호텔</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>주소: 제주 제주시 일주서로 7316</p>
 								<iframe 
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d415.9182541772254!2d126.4284919479928!3d33.492373160019426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350cf0a27065c411%3A0x5897c7c2b89ae17c!2z6re4652867Ko7Zi47YWU7KCc7KO8!5e0!3m2!1sko!2skr!4v1715539974079!5m2!1sko!2skr" 
 									width="600" height="450" style="border:0;" allowfullscreen="" 
 									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
+								</div> <div class="modal-footer">
 								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
@@ -754,19 +754,19 @@ button:hover::before {
 									<br> <strong>전화번호</strong> : 064-805-7711
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal16">더보기</button> <!-- The Modal -->
-								<pattern id="myModal16" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal16" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>올레리조트</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>주소: 제주 제주시 애월읍 애월해안로 454-12</p>
 								<iframe 
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1978.8135999452425!2d126.35344143286946!3d33.476534702314936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350cf6a43e6f577d%3A0xad3f0f73ffb65447!2z7Jis66CI66as7KGw7Yq4!5e0!3m2!1sko!2skr!4v1715540038984!5m2!1sko!2skr" 
 									width="600" height="450" style="border:0;" allowfullscreen="" 
 									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
-								</pattern> <pattern class="modal-footer">
+								</div> <div class="modal-footer">
 								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
@@ -778,19 +778,19 @@ button:hover::before {
 									<br> <strong>전화번호</strong> : 0507-1440-7904
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal17">더보기</button> <!-- The Modal -->
-								<pattern id="myModal17" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal17" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>저바다에누워</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>주소: 제주 제주시 한경면 판조로 3-5</p>
 								<iframe 
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.6035867116047!2d126.20159165235285!3d33.36743301378558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350c66c3b40ca50f%3A0x43c70eabccdeb5bf!2z7KCc7KO87Yq567OE7J6Q7LmY64-EIOygnOyjvOyLnCDtlZzqsr3rqbQg7YyQ7KGw66GcIDMtNQ!5e0!3m2!1sko!2skr!4v1715540107521!5m2!1sko!2skr" 
 									width="600" height="450" style="border:0;" allowfullscreen="" 
 									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
+								</div> <div class="modal-footer">
 								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
@@ -802,19 +802,19 @@ button:hover::before {
 									<br> <strong>전화번호</strong> : 010-2011-7937
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal18">더보기</button> <!-- The Modal -->
-								<pattern id="myModal18" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal18" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>브라운캐빈</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>주소: 제주 제주시 애월읍 소길남길 190-40 </p>
 								<iframe 
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d350.0564898712672!2d126.37513307148184!3d33.41496983949004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350cf6234d11ecad%3A0x47513122714f9c01!2z67iM65287Jq07LqQ67mI!5e0!3m2!1sko!2skr!4v1715540169953!5m2!1sko!2skr" 
 									width="600" height="450" style="border:0;" allowfullscreen="" 
 									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
+								</div> <div class="modal-footer">
 								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
@@ -826,19 +826,19 @@ button:hover::before {
 									<br> <strong>전화번호</strong> : 064-773-0800
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal19">더보기</button> <!-- The Modal -->
-								<pattern id="myModal19" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal19" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>블루하와이 호텔</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>주소: 제주 제주시 한림읍 한림로 75</p>
 								<iframe 
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.629973439507!2d126.21579627629644!3d33.38072515288876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350c612a92b36a9b%3A0x5e4a6484f0afe37d!2z67iU66Oo7ZWY7JmA7J20!5e0!3m2!1sko!2skr!4v1715540221991!5m2!1sko!2skr" 
 									width="600" height="450" style="border:0;" allowfullscreen="" 
 									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
+								</div> <div class="modal-footer">
 								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
@@ -850,19 +850,19 @@ button:hover::before {
 									<br> <strong>전화번호</strong> : 0507-1441-1026
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal20">더보기</button> <!-- The Modal -->
-								<pattern id="myModal20" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal20" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>아쿠아뷰티크</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>주소: 제주 제주시 구좌읍 해맞이해안로 522</p>
 								<iframe 
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1175.523017253849!2d126.80052187610208!3d33.55646315851282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350d17e9ad958bff%3A0x683f6f8fc10f29fd!2z7JWE7L-g7JWE67ew7Yuw7YGs!5e0!3m2!1sko!2skr!4v1715540266784!5m2!1sko!2skr" 
 									width="600" height="450" style="border:0;" allowfullscreen="" 
 									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
+								</div> <div class="modal-footer">
 								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								</div> </div> </div>
 							</td>
 						</tr>
 					</tbody>
