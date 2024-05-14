@@ -81,4 +81,3 @@
 	    </ul>
 	</nav>
 </header>
-<hr>
