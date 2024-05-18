@@ -126,6 +126,7 @@
 	border-radius: 8px;
 	border-style: none;
 }
+
 .tb_wrap {
 	width: 850px;
 	margin: 10px auto;
@@ -139,6 +140,46 @@
 	display: block;
 	width: 100%;
 	clear: both;
+}
+
+.boxBuilding {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.itemBuilding {
+	width: 210px;
+	height: 210px;
+	border: 5px solid gray;
+	margin: 10px;
+	position: relative;
+}
+
+.img_text {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	visibility: hidden;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	opacity: 0;
+	/* transition effect. not necessary */
+	transition: opacity .2s, visibility .2s;
+}
+
+.itemBuilding:hover .img_text {
+	visibility: visible;
+	opacity: 1;
+	-webkit-opacity: 1;
+}
+
+.itemBuilding:hover img {
+	webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+	filter: blur(4px);
 }
 </style>
 </head>
@@ -163,8 +204,81 @@
 					<li><a href="#">Information</a></li>
 					<li>공공기관 안내</li>
 				</ol>
-				
-			
+				<div class="boxBuilding">
+					<div class="itemBuilding">
+						<img src="${ipath}/images/building/building01_200.jpg" alt="">
+						<span class="img_text" style=""><a
+							style="background: white; display: inline; text-decoration: none;"
+							href="https://jj.nec.go.kr/jj/main/main.do
+						 "
+							target="_blank">제주도선거관리위원 <br> 바로가기</a></span>
+
+					</div>
+					<div class="itemBuilding">
+						<img src="${ipath}/images/building/building02_200.jpg" alt="">
+						<span class="img_text" style=""><a
+							style="background: white; display: inline; text-decoration: none;"
+							href="https://ijto.or.kr/korean/
+						 " target="_blank">제주관광공사 <br> 
+								바로가기</a></span>
+
+					</div>
+					<div class="itemBuilding">
+						<img src="${ipath}/images/building/building03_200.jpg" alt="">
+						<span class="img_text" style=""><a
+							style="background: white; display: inline; text-decoration: none;"
+							href="https://www.jpdc.co.kr/index.htm" target="_blank">제주도개발공사<br>
+								바로가기</a></span>
+
+					</div>
+					<div class="itemBuilding">
+						<img src="${ipath}/images/building/building04_200.jpg" alt="">
+						<span class="img_text" style=""><a
+							style="background: white; display: inline; text-decoration: none;"
+							href="https://www.jejusi.go.kr/index.ac " target="_blank">제주시청<br>
+								바로가기</a></span>
+
+					</div>
+					<div class="itemBuilding">
+						<img src="${ipath}/images/building/building05_200.jpg" alt="">
+						<span class="img_text" style=""><a
+							style="background: white; display: inline; text-decoration: none;"
+							href="https://www.seogwipo.go.kr/   " target="_blank">서귀포시청<br>
+								바로가기</a></span>
+							<!-- 현재 홈페이지 접속불가 -->
+					</div>
+					<div class="itemBuilding">
+						<img src="${ipath}/images/building/building06_200.jpg" alt="">
+						<span class="img_text" style=""><a
+							style="background: white; display: inline; text-decoration: none;"
+							href="http://www.jfac.kr/" target="_blank">제주문화예술재단<br> 바로가기</a></span>
+
+					</div>
+					<div class="itemBuilding">
+						<img src="${ipath}/images/building/building07_200.jpg" alt="">
+						<span class="img_text" style=""><a
+							style="background: white; display: inline; text-decoration: none;"
+							href="https://www.jejutp.or.kr/" target="_blank">제주테크노파크<br>
+								바로가기</a></span>
+
+					</div>
+					<div class="itemBuilding">
+						<img src="${ipath}/images/building/building08_200.jpg" alt="">
+						<span class="img_text" style=""><a
+							style="background: white; display: inline; text-decoration: none;"
+							href="https://ofjeju.kr/ " target="_blank">제주영상문화산업진흥원<br> 바로가기</a></span>
+
+					</div>
+					<div class="itemBuilding">
+						<img src="${ipath}/images/building/building09_200.jpg" alt="">
+						<span class="img_text" style=""><a
+							style="background: white; display: inline; text-decoration: none;"
+							href="http://www.visitjeju.or.kr/ " target="_blank">제주도관광협회<br>
+								바로가기</a></span>
+
+					</div>
+				</div>
+
 			</div>
 
 
