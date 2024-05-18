@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <c:set var="path0" value="<%=request.getContextPath() %>" />
 <!DOCTYPE html>
 <html>
@@ -85,9 +86,9 @@
                     </thead>
                     <tbody>
                     	<c:if test="${not empty notiList }">
-                    		<c:forEach var="dto" items="${notiList }">
+                    		<c:forEach var="dto" items="${notiList }" varStatus="status">
 		                        <tr>
-		                        	<td>${dto.no }</td>
+		                        	<td>${fn:length(notiList) - status.count + 1 }</td>
 		                            <td>
 		                            	<c:if test="${empty sid }">
 		                            		<strong class="n_tit">${dto.title }</strong>
