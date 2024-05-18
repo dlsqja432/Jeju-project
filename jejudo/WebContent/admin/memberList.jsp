@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <c:set var="path0" value="<%=request.getContextPath() %>" />
 <!DOCTYPE html>
 <html>
@@ -79,7 +80,7 @@
                     	<c:if test="${not empty memList }">
                     		<c:forEach var="dto" items="${memList }" varStatus="status">
 		                        <tr>
-		                        	<td>${status.count }</td>
+		                        	<td>${fn:length(memList) - status.count + 1 }</td>
 		                            <td>${dto.id }</td>
 		                            <td>${dto.pw }</td>
 		                            <td>

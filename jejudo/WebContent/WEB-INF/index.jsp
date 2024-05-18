@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <c:set var="path0" value="<%=request.getContextPath() %>" />
 <!DOCTYPE html>
 <html>
@@ -135,9 +136,9 @@ article.art2 { background-color:#afebff; top:-10px; right:-338px; z-index:2; fil
                 </thead>
                 <tbody>
                 	<c:if test="${not empty notiList }">
-                		<c:forEach var="dto" items="${notiList }">
+                		<c:forEach var="dto" items="${notiList }" varStatus="status">
                 			<tr>
-		                        <td>${dto.no }</td>
+		                        <td>${fn:length(notiList) - status.count + 1 }</td>
 		                        <td><a href="" class="n_tit">${dto.title }</a></td>
 		                        <td>
 			                        <fmt:parseDate value="${dto.resdate }" var="res" pattern="yyyy-MM-dd HH:mm:ss" />
