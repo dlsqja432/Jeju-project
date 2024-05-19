@@ -6,7 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+<title>제주도 문화재</title>
 <!--<link rel="stylesheet" href="${path0 }/css/normalize2.css">  -->
 <link rel="stylesheet" href="${path0 }/css/common.css">
 <%@ include file="/head.jsp"%>
@@ -360,9 +360,9 @@ button:hover::before {
 			<nav id="side_bar">
 				<ul>
 					<h3 id="side_bar_title">관광정보</h3>
-					<li><a href="">관광지</a></li>
-					<li><a href="">문화재</a></li>
-					<li><a href="">추천 여행코스</a></li>
+					<li><a href="tour.jsp">관광지</a></li>
+					<li><a href="artifacts.jsp">문화재</a></li>
+					<li><a href="tourCourse.jsp">추천 여행코스</a></li>
 				</ul>
 			</nav>
 
@@ -389,11 +389,11 @@ button:hover::before {
 
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal1">더보기</button> <!-- The Modal -->
-								<pattern id="myModal1" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal1" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>돌하르방</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>설명: 돌하르방은 제주도에서 마을 입구에 세워 수호신 구실을 하는 장승이다. 돌하르방이란
 									‘돌할아버지’라는 제주도 방언이다. 돌하르방은 머리에 둥근 감투가 씌워졌고, 눈이 부리부리하게 큰 편이며, 입은
 									다물었다. 한쪽 어깨를 치켜올렸고, 두 손은 배 부분에 위아래로 가지런히 모아 붙였다. 돌하르방은 본래
@@ -403,9 +403,9 @@ button:hover::before {
 									인성·안성·보성리에 12기가 있고, 서울의 국립민속박물관에 2기가 있는데, 이것은 제주시의 것을 옮겨놓은 것이다.
 								</p>
 
-								</pattern> <pattern class="modal-footer">
-								<h4>찾아오시는 길:</h4>
-								</pattern> </pattern> </pattern>
+								</div> <div class="modal-footer">
+								&nbsp;
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
@@ -417,44 +417,35 @@ button:hover::before {
 
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal2">더보기</button> <!-- The Modal -->
-								<pattern id="myModal2" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal2" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>하멜 표류기</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>조선 중기 제주도에 표착한 헨드릭 하멜과 네덜란드인들의 억류 생활을 기록한 책.</p>
 								<p>하멜 일행이 제주도에 표착하여 관원에게 체포된 경위와 조선 여기저기에 끌려다니면서 겪은 일을 적고
 									있다. 또한 조선의 풍속 및 지리, 풍토, 산물, 군사, 법속, 교육, 무역 등 하멜이 직접 보고 들은 내용을
 									담고 있다.</p>
 								<p>『하멜 표류기』는 조선에 대해 아는 것이 거의 없던 유럽인들에게 조선을 소개한 최초의 자료라고 할 수
 									있다. 『하멜 표류기』는 효종 시대의 정치, 사회상은 물론 효종의 북벌 의지를 엿볼 수 있는 귀중한 자료이다.</p>
-								<p>주소: 제주특별자치도 제주시 용두암길 15</p>
-								<iframe
-									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.4289189377364!2d126.50948341201968!3d33.51623227325245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350ce4b2810e4315%3A0x3044bfd3cfaa7bb0!2sYongduam%20Rock!5e0!3m2!1sen!2skr!4v1714976157041!5m2!1sen!2skr"
-									width="600" height="450" style="border: 0;" allowfullscreen=""
-									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
-								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+							
+								</div> <div class="modal-footer">
+								&nbsp;
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
 							<th><img src="${ipath}/images/artifact/train_250.jpg" alt=""></th>
 							<td>
 								<p>
-									<strong>명칭</strong> : 미카형 증기기관차 304호<br> <strong>주소</strong>
-									: 제주특별자치도 서귀포시 색달동 2889번지 중문관광단지 입구<br> <strong>영업
-										시간</strong> : 오전 09:00 ~ 오후 6:00 (입장마감 17:30)<br> <strong>입장
-										요금</strong> : 성인 12000, 청소년 11000 어린이 10000<br> <strong>홈페이지</strong>
-									: <a href="#">오구당당.com</a><br> <strong>전화번호</strong> :
-									064-738-7600
+									<strong>명칭</strong> : 미카형 증기기관차 304호<br> 
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal3">더보기</button> <!-- The Modal -->
-								<pattern id="myModal3" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal3" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>미카형 증기기관차 304호</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>제주특별자치도 제주시 연동의 삼무 공원에 전시되어 있는, 일제 강점기에 제작된 텐더식 증기 기관차이다.
 								</p>
 								<p>국내에 유일하게 남아 있는 석탄용 증기 기관차로 석탄과 물을 싣는 탄수차와 함께 원형 그대로 잘 남아
@@ -462,32 +453,24 @@ button:hover::before {
 									의해 문화재 지정번호가 폐지되어 국가등록문화재로 재지정되었다.</p>
 								<p>석탄용 원료 기관차가 중유용으로 개조되지 않고 원형이 그대로 남아 있는 국내 유일의 증기 기관차로 철도
 									산업 발달사에 있어 사료적 가치가 크다.</p>
-								<p>주소: 제주특별자치도 서귀포시 성산읍 일출로 284-12</p>
-								<iframe
-									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.6485055090293!2d126.93740044869463!3d33.45846298045431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350d14b9712b7577%3A0x636ffe4d7eccbc05!2sSeongsan%20Ilchulbong!5e0!3m2!1sen!2skr!4v1714999918772!5m2!1sen!2skr"
-									width="600" height="450" style="border: 0;" allowfullscreen=""
-									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
-								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								
+								</div> <div class="modal-footer">
+								&nbsp;
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
 							<th><img src="${ipath}/images/artifact/tools_250.jpg" alt=""></th>
 							<td>
 								<p>
-									<strong>명칭</strong> : 제주 해녀의 물옷과 물질도구<br> <strong>주소</strong>
-									: 제주특별자치도 제주시 우도면<br> <strong>영업 시간</strong> : 날씨에 따라 변동<br>
-									<strong>입장 요금</strong> : 선박 가격 참조<br> <strong>홈페이지</strong>
-									: <a href="#">오구당당.com</a><br> <strong>전화번호</strong> :
-									064-728-1527
+									<strong>명칭</strong> : 제주 해녀의 물옷과 물질도구<br> 
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal4">더보기</button> <!-- The Modal -->
-								<pattern id="myModal4" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal4" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>제주 해녀의 물옷과 물질도구</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>제주특별자치도 제주시 구좌읍 하도리 해녀 박물관에 있는 제주 해녀의 물옷과 물질도구.</p>
 								<p>제주 해녀의 물옷과 물질도구 는 옛날부터 현대에 이르기까지의 제주도 해녀들이 바다에서 물질할 때 입던
 									옷인 물옷과 각종 도구 15점으로 구성되었는데, 해녀 박물관에 소장된 유물 중에서 가장 오래되고 출처가 분명한
@@ -497,32 +480,24 @@ button:hover::before {
 									제주 해녀들의 지혜를 엿볼 수 있다.</p>
 								<p>제주 해녀의 물옷과 물질도구 는 세계에서 가장 오래된 여성 전문 직업인인 제주 해녀들의 고유 문화를
 									연구하는 데 필수적인 자료로 평가받고 있다.</p>
-								<p>주소: 제주특별자치도 제주시 우도면</p>
-								<iframe
-									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26614.047599368343!2d126.91691053754253!3d33.5077261482285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350d6aad13b6b9ab%3A0x76be50d31a67c52!2sUdo-myeon%2C%20Jeju-si%2C%20Jeju-do!5e0!3m2!1sen!2skr!4v1715000972237!5m2!1sen!2skr"
-									width="600" height="450" style="border: 0;" allowfullscreen=""
-									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
-								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								
+								</div> <div class="modal-footer">
+								&nbsp;
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
 							<th><img src="${ipath}/images/artifact/yeondae_250.jpg" alt=""></th>
 							<td>
 								<p>
-									<strong>명칭</strong> : 별도연대<br> <strong>주소</strong> :
-									제주특별자치도 서귀포시 안덕면 신화역사로 15<br> <strong>영업 시간</strong> :
-									0900~1800<br> <strong>입장 요금</strong> : 무료<br> <strong>홈페이지</strong>
-									: <a href="#">오구당당.com</a><br> <strong>전화번호</strong> :
-									064-794-5312
+									<strong>명칭</strong> : 별도연대<br> 
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal5">더보기</button> <!-- The Modal -->
-								<pattern id="myModal5" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal5" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header">
 								<h2>별도연대</h2>
-								<span class="close">×</span> </pattern> <pattern class="modal-body">
+								<span class="close">×</span> </div> <div class="modal-body">
 								<p>설명: 제주특별자치도 제주시 화북1동에 있는 조선 전기의 통신 시설. 횃불과 연기를 이용해서 급한
 									소식을 전달하는 연대 중 하나이다. 별도연대는 1999년에 석축으로 복원되었다. 별도연대는 제주도 내 일반적인
 									연대의 형태인 사다리꼴 형태에 기단 주위에 타원형의 방호벽이 설치되어 있다. 연대의 하부 폭은
@@ -533,44 +508,33 @@ button:hover::before {
 									시설을 연구하는 데 중요한 학술적 자료를 제공하고 있다. 1996년 7월 18일 제주특별자치도 기념물
 									제23-9호로 지정되었고, 2021년 11월 19일 문화재청 고시에 의해 문화재 지정번호가 폐지되어 제주특별자치도
 									기념물로 재지정되었다.</p>
-								<iframe
-									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.4289189377364!2d126.50948341201968!3d33.51623227325245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350ce4b2810e4315%3A0x3044bfd3cfaa7bb0!2sYongduam%20Rock!5e0!3m2!1sen!2skr!4v1714976157041!5m2!1sen!2skr"
-									width="600" height="450" style="border: 0;" allowfullscreen=""
-									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
-								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								
+								</div> <div class="modal-footer">
+								&nbsp;
+								</div> </div> </div>
 							</td>
 						</tr>
 						<tr>
 							<th><img src="${ipath}/images/artifact/lighthouse_250.png" alt=""></th>
 							<td>
 								<p>
-									<strong>명칭</strong> : 구엄리 도대불<br> <strong>주소</strong> :
-									제주특별자치도 서귀포시 대정읍 마라로101번길 46 <br> <strong>영업 시간</strong> :
-									날씨에 따라 변동<br> <strong>입장 요금</strong> : 선박 가격 참조<br> <strong>홈페이지</strong>
-									: <a href="#">더히든키친.com</a><br> <strong>전화번호</strong> :
-									064-760-4014
+									<strong>명칭</strong> : 구엄리 도대불<br>
 								</p> <!-- Trigger/Open The Modal -->
 								<button class="modal-button" href="#myModal6">더보기</button> <!-- The Modal -->
-								<pattern id="myModal6" class="modal"> <!-- Modal content -->
-								<pattern class="modal-content"> <pattern
+								<div id="myModal6" class="modal"> <!-- Modal content -->
+								<div class="modal-content"> <div
 									class="modal-header"> 	<h2>구엄리 도대불</h2><span class="close">×</span>
 							
-								</pattern> <pattern class="modal-body">
+								</div> <div class="modal-body">
 								<p>설명: 제주특별자치도 제주시 애월읍 구엄리관련항목 보기에 있는 도대불. 밤에 조업을 나간 어선들이 항구로 돌아올 수 있도록 하기 위해서 건립되었다.
 	</p><p>
 구엄리 도대불은 1950년대에 상자형 도대불을 축조하고 상단에 철제탑을 세워 호롱불로 불을 밝혔다. 조업을 나가든 나가지 않든 매일 불을 켰다가 새벽녘에 껐다. 선창 주변은 바다를 관망하기에 아주 좋은 위치이다. 한편 강한 해풍에도 이 도대불 주변에는 파도가 닿지 않았다고 한다. 1974년 인근에 아세아 방송국이 개국되어 방송국 안테나의 불빛으로 선창의 위치를 찾을 수 있게 되자 더 이상 도대불을 사용하지 않게 되었다.
 	</p><p>
 제주도의 도대불은 최근 몇 년 사이에 거의 사라지고 없다. 그럼에도 구엄리 도대불은 옛 모습이 보존되고 있다.</p>
-								<p>주소: 제주특별자치도 서귀포시 대정읍 마라로101번길 46</p>
-								<iframe
-									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3341.6371413958195!2d126.2645162112169!3d33.11862216633981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350c3fe3464e3e15%3A0x937c53e42ca50e6!2s46%20Mara-ro%20101beon-gil%2C%20Daejeong-eup%2C%20Seogwipo%2C%20Jeju-do!5e0!3m2!1sen!2skr!4v1715005945473!5m2!1sen!2skr"
-									width="600" height="450" style="border: 0;" allowfullscreen=""
-									loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</pattern> <pattern class="modal-footer">
-								<h3>찾아오시는 길:</h3>
-								</pattern> </pattern> </pattern>
+								
+								</div> <div class="modal-footer">
+								&nbsp;
+								</div> </div> </div>
 							</td>
 						</tr>
 					</tbody>
