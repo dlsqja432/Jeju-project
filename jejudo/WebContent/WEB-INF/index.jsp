@@ -139,7 +139,7 @@ article.art2 { background-color:#afebff; top:-10px; right:-338px; z-index:2; fil
                 		<c:forEach var="dto" items="${notiList }" varStatus="status">
                 			<tr>
 		                        <td>${fn:length(notiList) - status.count + 1 }</td>
-		                        <td><a href="" class="n_tit">${dto.title }</a></td>
+		                        <td><a href="${path0 }/GetNotice.do?no=${dto.no}" class="n_tit">${dto.title }</a></td>
 		                        <td>
 			                        <fmt:parseDate value="${dto.resdate }" var="res" pattern="yyyy-MM-dd HH:mm:ss" />
 							 		<fmt:formatDate value="${res }" var="resdate" pattern="yyyy년 MM월 dd일" />
