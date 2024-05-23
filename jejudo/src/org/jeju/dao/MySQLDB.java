@@ -7,10 +7,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class MySQLDB implements SqlLang {
-	final static String DRIVER = "com.mysql.cj.jdbc.Driver";
-	final static String URL = "jdbc:mysql://localhost:3306/kh";
-	final static String USERID = "root";
-	final static String USERPW = "1234";
+	final static String DRIVER = "org.mariadb.jdbc.Driver";
+	final static String URL = "jdbc:mariadb://192.168.20.221:3308/team22";
+	final static String USERID = "team22";
+	final static String USERPW = "bc1234";
 	
 	Connection con = null;
 	

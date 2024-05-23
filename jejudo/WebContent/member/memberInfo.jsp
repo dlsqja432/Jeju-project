@@ -68,9 +68,7 @@
 					 	<tr>
 					 		<th><label for="post_btn">주소</label></th>
 					 		<td>
-					 			<c:set var="address" value="${fn:split(mem.addr, ' $ ')}"/>
-					 			<input type="text" name="address1" id="address1" class="form-control" value="${address[0] }" readonly required><br>
-					 			<input type="text" name="address2" id="address2" class="form-control" value="${address[1] }" readonly required><br>
+					 			<input type="text" name="address" id="address" class="form-control" value="${mem.addr }" readonly required><br>
 					 			<input type="text" name="postcode" id="postcode" class="form-control" value="${mem.postcode }" style="width:160px" readonly required>
 					 		</td>
 					 	</tr>

@@ -16,10 +16,11 @@
 .page { clear:both; width:1200px; min-height:100vh; margin:0 auto; margin-top:20px;}
 .page::after { content: ""; display: block; width: 100%; clear: both; }
 .page_title { text-align: center; padding-top: 2em; padding-bottom: 0.5em; }
-#page1, #page2 { background-color:#f1f3f5; min-height:calc(100vh - 320px); }
+#page1, #page2 { background-color:#FFFFF0; min-height:calc(100vh - 480px); }
 #page2 { margin-bottom: 10px;  }
+#contents { background-color:#FFFFF0; }
 
-.recommend { width:450px; height:500px; 
+.recommend { width:450px; height:500px; background-color:white;
     padding:15px; margin:40px 75px; box-shadow:0px 0px 40px #666;
     float:left; border-bottom-right-radius: 80px; position: relative;}
 .recommend p { text-align: center; font-size: 20px; font-weight: bold; }
@@ -54,7 +55,7 @@ article.art2 { background-color:#afebff; top:-10px; right:-338px; z-index:2; fil
 .table a.n_tit:hover { text-decoration: underline; color:deepskyblue; }
 .plus_btn { width:960px; margin:20px auto; text-align:right; }
 
-#page3 {background-color:#f1f3f5; min-height: calc(100vh - 700px); margin-bottom:20px; }
+#page3 {background-color:#FFFFF0; min-height: calc(100vh - 700px); margin-bottom:20px; }
 .icon_lst { clear: both; width: 1200px; margin: 0 auto; }
 .icon_lst li { float: left; width: 110px; margin: 20px; text-align: center; }
 .icon_lst li a { clear: #333; }
@@ -137,7 +138,7 @@ article.art2 { background-color:#afebff; top:-10px; right:-338px; z-index:2; fil
                 <tbody>
                 	<c:if test="${not empty notiList }">
                 		<c:forEach var="dto" items="${notiList }" varStatus="status">
-                			<tr>
+                			<tr style="background-color:white;">
 		                        <td>${fn:length(notiList) - status.count + 1 }</td>
 		                        <td><a href="${path0 }/GetNotice.do?no=${dto.no}" class="n_tit">${dto.title }</a></td>
 		                        <td>
@@ -163,55 +164,54 @@ article.art2 { background-color:#afebff; top:-10px; right:-338px; z-index:2; fil
         </div>
     </section>
     <section class="page" id="page3">
-        <h2 class="page_title">바로 가기</h2>
         <div class="tb_wrap">
             <ul class="icon_lst">
                 <li>
                     <a href="${hpath }/information/traffic.jsp">
                         <div class="icon_fr"><img src="${hpath }/images/boxIcon1.png" alt="아이콘1"></div>
-                        <h3 class="icon_tit">교통편</h3>
+                        <h4 class="icon_tit">교통편</h4>
                     </a>
                 </li>
                 <li>
                     <a href="${hpath }/information/food.jsp">
                         <div class="icon_fr"><img src="${hpath }/images/boxIcon2.png" alt="아이콘2"></div>
-                        <h3 class="icon_tit">음식점</h3>
+                        <h4 class="icon_tit">음식점</h4>
                     </a>
                 </li>
                 <li>
                     <a href="${hpath }/information/hotel.jsp">
                         <div class="icon_fr"><img src="${hpath }/images/boxIcon3.png" alt="아이콘3"></div>
-                        <h3 class="icon_tit">숙박시설</h3>
+                        <h4 class="icon_tit">숙박시설</h4>
                     </a>
                 </li>
                 <li>
                     <a href="${hpath }/tour/tour.jsp">
                         <div class="icon_fr"><img src="${hpath }/images/boxIcon4.png" alt="아이콘4"></div>
-                        <h3 class="icon_tit">관광지</h3>
+                        <h4 class="icon_tit">관광지</h4>
                     </a>
                 </li>
                 <li>
                     <a href="${hpath }/tour/artifacts.jsp">
                         <div class="icon_fr"><img src="${hpath }/images/boxIcon5.png" alt="아이콘5"></div>
-                        <h3 class="icon_tit">문화재</h3>
+                        <h4 class="icon_tit">문화재</h4>
                     </a>
                 </li>
                 <li>
                     <a href="${hpath }/tour/tourCourse.jsp">
                         <div class="icon_fr"><img src="${hpath }/images/boxIcon6.png" alt="아이콘6"></div>
-                        <h3 class="icon_tit">추천 여행 코스</h3>
+                        <h4 class="icon_tit">추천 여행 코스</h4>
                     </a>
                 </li>
                 <li>
                     <a href="${hpath }/NotiList.do">
                         <div class="icon_fr"><img src="${hpath }/images/boxIcon7.png" alt="아이콘7"></div>
-                        <h3 class="icon_tit">공지사항</h3>
+                        <h4 class="icon_tit">공지사항</h4>
                     </a>
                 </li>
                 <li>
                     <a href="${hpath }/intro/map.jsp">
                         <div class="icon_fr"><img src="${hpath }/images/boxIcon8.png" alt="아이콘8"></div>
-                        <h3 class="icon_tit">오시는 길</h3>
+                        <h4 class="icon_tit">오시는 길</h4>
                     </a>
                 </li>
             </ul>
